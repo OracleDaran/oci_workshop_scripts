@@ -1,0 +1,30 @@
+{
+  "name":"Managing Tags and Tag Namespaces",
+  "description": "Walkthrough on creating tags for resources.", 
+  "steps": [
+    {
+      "message": "In this tutorial we will guide you on how to tag resources. </br>When you have many resources across multiple compartments in your tenancy, it can become difficult to track resources. You can then use the tags to help you organize and list resources based on your business needs.",
+      "path": "/"
+    },
+    {
+      "message": "There are two types of tagging. <strong>Free-form</strong> tags, and <strong>Defined</strong> tags. For this tutorial we will create a Defined Tag. <small><em>Tip:</em> More information about the differences <a href=\"https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/taggingoverview.htm?Highlight=tags\">here.</a></small>",
+      "path": "/"
+    }, 
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Governance\"</strong> and click <strong>\"Tag Namespaces\"</strong>. </br> {{img-url:/images/tutorials/idtagging.png}} ",
+      "path": "/identity/tag-namespaces"
+    },
+    {
+      "message": "Click Create Namespace Definition. Choose the compartment, namespace definition name, and description. Submit. <small><em>Tip:</em> A Tag Namespace is like a container for your tag keys. Consists of a name, and zero or more tag key definitions.</small> </br> {{img-url:/images/tutorials/idnamespace.png}}",
+      "path": ""
+    },
+    {
+      "message": "Click the new namespace link. Inside the tagging namespace you can add your tag keys. </br> <strong>\"Click Create Tag Key Definition\"</strong>. Add a tag key and a definition then click create tag key button. </br> {{img-url:/images/tutorials/idtagkey.png}} ",
+      "path": ""
+    },
+    {
+      "message": "You created a defined tag namespace. Now you are able to add tags to resources! </br> You can add tags when creating resources or after by clicking the Apply Tag(s) button. </br> {{img-url:/images/tutorials/idtagsbtn.png}} </br>{{img-url:/images/tutorials/idtagapply.png}} </br> <small><em>Tip:</em> Add tags while going through the following tutorials.</small>",
+      "path": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "tutorials": [{
+      "name": "Identity Access Management",
+      "type": "Category",
+      "list": [{
+          "name": "Create a Users, and Groups",
+          "type": "Tutorial",
+          "path": "/create_users_and_groups.json"
+        },
+        {
+          "name": "Create Compartment",
+          "type": "Tutorial",
+          "path": "/create_compartment.json"
+        },
+        {
+          "name": "User Credentials",
+          "type": "Tutorial",
+          "path": "/user_credentials.json"
+        },
+        {
+          "name": "Grant Policies to Groups",
+          "type": "Tutorial",
+          "path": "/grant_policies_to_groups.json"
+        }
+      ]
+    },
+    {
+      "name": "Networking",
+      "type": "Category",
+      "list": [{
+          "name": "Create VCN",
+          "type": "Tutorial",
+          "path": "/create_vcn.json"
+        },
+        {
+          "name": "Create Subnet",
+          "type": "Tutorial",
+          "path": "/create_subnet.json"
+        },
+        {
+          "name": "Create Security Lists",
+          "type": "Tutorial",
+          "path": "/create_security_lists.json"
+        },
+        {
+          "name": "Create Internet Gateway",
+          "type": "Tutorial",
+          "path": "/create_internet_gateway.json"
+        }
+      ]
+    },
+    {
+      "name": "Compute",
+      "type": "Category",
+      "list": [{
+        "name": "Create Compute Instance",
+        "type": "Tutorial",
+        "path": "/create_compute_instance.json"
+      }]
+    },
+    {
+      "name": "Object Storage",
+      "type": "Category",
+      "list": [{
+        "name": "Create Object Storage",
+        "type": "Tutorial",
+        "path": "/create_object_storage.json"
+      }]
+    },
+    {
+      "name": "Block Storage",
+      "type": "Category",
+      "list": [{
+        "name": "Create Block Volume",
+        "type": "Tutorial",
+        "path": "/create_block_volume.json"
+      }]
+    },
+    {
+      "name": "Governmance",
+      "type": "Category",
+      "list": [{
+        "name": "Manage Tags",
+        "type": "Tutorial",
+        "path": "/manage_tags.json"
+      }]
+    }
+  ]
+}

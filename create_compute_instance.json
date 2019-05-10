@@ -1,0 +1,30 @@
+{
+  "name":"Creating a Compute Instance",
+  "description": "Walkthrough on creating a Internet Gateway.", 
+  "steps": [
+    {
+      "message": "In this tutorial will go over steps on creating a compute instance. We will create a Linux VM, but you can change the image to any. <small><strong>Note:</strong> A VCN, and compartment must already be created.</small>",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br> {{img-url:/images/tutorials/computemenu.png}}",
+      "path": "/compute/instances"
+    },
+    {
+      "message": "Click Create Instance. Choose a name. For high availability there are 3 Availability Domains per region. Choose one where a subnet is available. Under \"Operating System\" choose your image, for this tutorial we will choose the default.",
+      "path": ""
+    },
+    {
+      "message": "Choose Virtual Machines. <small><em>Tip:</em>Bare Metal is required if you don't need virtualization.</small> </br> For now choose VMs. To determine OCPU number and RAM GB size, OCI uses shapes for the different configurations of both. Choose any available or depending on workload.",
+      "path": ""
+    },
+    {
+      "message": "Add your public key in order to SSH into your instance. Under Networking choose the VCN you created before and the subnet. Skip Advanced Settings for now. </br> Click Create to create your first compute instance.",
+      "path": ""
+    },
+    {
+      "message": "For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'> documentation</a>.",
+      "path": ""
+    }
+  ]
+}

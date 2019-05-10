@@ -1,0 +1,34 @@
+{
+  "name":"Grant Policies to Groups",
+  "description": "Walkthrough on granting policies for groups.", 
+  "steps": [
+    {
+      "message": "In this tutorial we will guide you how to apply policies to groups.</br> A policy specifies who can have access which OCI resource that your company has, and how.",
+      "path": "/"
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Policies\"</strong>. </br> {{img-url:/images/tutorials/idpolicies.png}} ",
+      "path": "/identity/policies"
+    },
+    {
+      "message": "Click <strong>\"Create Policy\"</strong>. Add a <strong>\"Name\"</strong> and a <strong>\"Description\"</strong>. </br> You can choose to have the policy expire or stay current. Next we will actually add our policies. ",
+      "path": ""
+    },
+    {
+      "message": "Click Create Policy. Add a <strong>\"Name\"</strong> and a <strong>\"Description\"</strong>. You can choose to have the policy expire or stay current. </br> Next we will actually add our statements to our policy.",
+      "path": ""
+    },
+    {
+      "message": "Each statement follows this basic syntax: </br> <code>Allow group <group_name> to <verb> <resource-type> in compartment <compartment_name></code>. </br> Policies only allow access, they cannot deny it. Some cases you may want to apply to a tenancy, heres an example: <code>Allow group <group_name> to <verb> <resource-type> in tenancy</code>. </br> {{img-url:/images/tutorials/idstatements.png }}",
+      "path": ""
+    },
+    {
+      "message": "For this tutorial add the common admin policy: <code>Allow group <group_name> to manage All Resources in compartment <compartment_name>.</code> </br>Replacing <group_name> and <compartment_name> with the previous created. <small><em>Tip:</em> Here are common policies you may encounter and use. <a href=\"https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/commonpolicies.htm\".</strong>" ,
+      "path": ""
+    },
+    {
+      "message": "Congratulations, current group users now have access to recourses specified!",
+      "path": ""
+    } 
+  ]
+}

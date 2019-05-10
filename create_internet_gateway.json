@@ -1,0 +1,34 @@
+{
+  "name":"Creating Internet Gateway",
+  "description": "Walkthrough on creating a Internet Gateway.", 
+  "steps": [
+    {
+      "message": "In order to let your instances have internet access an Internet Gateway or a NAT gateway must be created. In this tutorial we will show you how to create a Internet Gateway.",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Virtual Cloud Networks\"</strong>. </br> {{img-url:/images/tutorials/vcnmenu.png}}",
+      "path": "/networking/vcns"
+    },
+    {
+      "message": "Choose the VCN you wish to add subnets. Under Resources, Click Internet Gateway, then Create Internet Gateway. </br> {{img-url:/images/tutorials/vcnig.png}}",
+      "path": ""
+    },
+    {
+      "message": "Give a name for the Internet Gateway, and choose the compartment. Click Create Internet Gateway. </br>{{img-url:/images/tutorials/vcnig2.png}}",
+      "path": ""
+    },
+    {
+      "message": "In order to use an Internet Gateway you must add it to your Route Table. Under Resources, Click Route Table. Click the route table name. <small><em>Tip:</em> The default route table is created on initail VCN creation.</small>",
+      "path": ""
+    },
+    {
+      "message": "Click Edit Route Rules. Under Target Type choose Internet Gateway. For destination CIDR block give 0.0.0.0/0, then choose your IG from before under Target Internet Gateway. </br> {{img-url:/images/tutorials/vcnigcreation.png}}",
+      "path": ""
+    },
+    {
+      "message": "Now your resources will have access to the internet and you can SSH and connect to your compute instances!",
+      "path": ""
+    }
+  ]
+}

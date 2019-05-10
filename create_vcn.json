@@ -1,0 +1,26 @@
+{
+  "name":"Creating a VCN",
+  "description": "Walkthrough on a VCN for all your resources.", 
+  "steps": [
+    {
+      "message": "In this tutorial we will guide you on how to create a VCN for all your Computes and Databases. <small><em>Tip:</em> For starting off, use Create VCN and related resources to quickly get you started.</small>",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Virtual Cloud Networks\"</strong>. </br> {{img-url:/images/tutorials/vcnmenu.png}} ",
+      "path": "/networking/vcns"
+    },
+    {
+      "message": "Click <strong>\"Create Virtual Cloud Network\"</strong>. Choose the compartment you want the VCN in. Apply a Name. Choose \"CREATE VIRTUAL CLOUD NETWORK PLUS RELATED RESOURCES\". </br> {{img-url:/images/tutorials/vcneasy.png}} </br> <small><em>Tip:</em> Choosing related resources creates the subnets and internet gateway for you.</small>",
+      "path": ""
+    },
+    {
+      "message": "Click Create Virtual Cloud Network and your new VCN will be provisioned. When choosing <strong>\"Create Related Resources\"</strong> creates public subnets, internet gateway, and sets up routing table. </br> Makes it easy to start off with but if you have specific network configuration then choose <strong>\"CREATE VIRTUAL CLOUD NETWORK ONLY\"</strong> and continue the tutorial. </br> {{img-url:/images/tutorials/vcnonly.png}} </br> Otherwise you are done!",
+      "path": ""
+    },
+    {
+      "message": "If you require more customized VCN configuration, choose <strong>\"CREATE VIRTUAL CLOUD NETWORK ONLY\"</strong>. </br> Check 'Use DNS hostname' for this VCN. Leave DNS Label default and click \"Create Virtual Cloud Network\" button. </br>{{img-url:/images/tutorials/vcncustom.png}} <small><em>Tip:</em> None of the resources are created and must be created manually. This offers more customizations such as creating a private only subnets. Refer to the other tutorials to create each resource.</small>",
+      "path": ""
+    }
+  ]
+}

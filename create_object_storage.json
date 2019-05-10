@@ -1,0 +1,35 @@
+{
+  "name":"Creating a Object Storage",
+  "description": "Walkthrough on creating a Object Storage.", 
+  "steps": [
+    {
+      "message": "Another type of storage for OCI is object storage which offers both \"hot\" (frequently accessed) stoarge, and \"cold\" (archive) storage. </br> Object storage is ideal for having a bucket of data. For this tutorial we will go through hwo to create object storage. <small><em>Tip:</em> A namespace is top level container for buckers and objects. Buckets are a logical container that hold objects.</small>",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Object Storage\"</strong> and click <strong>\"Object Storage\"</strong>. </br>{{img-url:/images/tutorials/objmenu.png}} <small><em>Tip:</em> Archive tier is only for uploading objects. Object Storage also has life cycle policies.</small>",
+      "path": ""
+    },
+    {
+      "message":"Click Create Bucket button. When the menu pops up it requires the bucket name, and storage type. Choose either standard or archive. <small><em>Tip:</em> Bucket names must be unique within a tenancy.</small>",
+      "path":""
+    },
+    {
+      "message":"Click Create Bucket. Now you are able to upload and download objects from the bucket uses. </br>You can use the console, Rest APIs, OCI CLI, and SDK tools. Continue the tutorial to learn how to upload using the console.",
+      "path":""
+    },
+    {
+      "message":"Click the bucket name you created. Make sure you choose Objects under Resources. Click on Upload Object. </br> {{img-url:/images/tutorials/objupload1.png}}",
+      "path":""
+    },
+    {
+      "message":"A new window will allow you to upload new files by dragging and dropping or click browse to choose from your computer. </br>{{img-url:/images/tutorials/objupload2.png}}",
+      "path":""
+    },
+    {
+      "message":"Congratulations now you have objects on the object storage! </br>You are able to access them depending on the access to the object storage. For easy access you can set the visibility to public. </br> <small><em>Tip:</em> More information on visibility and Pre-Auth requests <a href='https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm'>here</a>.</small>",
+      "path":""
+    }
+  ]
+}
+  

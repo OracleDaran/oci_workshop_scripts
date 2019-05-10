@@ -1,0 +1,26 @@
+{
+  "name":"Creating a Subnet",
+  "description": "Walkthrough on creating a subnet.", 
+  "steps": [
+    {
+      "message": "Subnets is a subdivision of a VCN. Subnets contain vNICs, which attach to instances. </br> Just like VCNs, each subnet must be a continuous range. Subnets can be AD specific or regional.",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Virtual Cloud Networks\"</strong>. </br> {{img-url:/images/tutorials/vcnmenu.png}}",
+      "path": "/networking/vcns"
+    },
+    {
+      "message": "Choose the VCN you wish to add subnets. Under Resources, Click Subnets, then Create Subnet. {{img-url:/images/tutorials/vcnsubnet.png}}",
+      "path": ""
+    },
+    {
+      "message": "Give a name to the subnet. For subnet type can choose between AD specific or Regional (across ADs). Choose a continuous CIDR block that is within the greater VCN. Choose the Route table for the subnet, default route table is available. {{img-url:/images/tutorials/vcnpart1.png}}",
+      "path": ""
+    },
+    {
+      "message": "Choose whether you want a public or private subnet. </br>Leave DNS Resolution checked. DHCP options can be kept default. If you created a custom Security List choose that, otherwise choose the default Security Lists. </br> Create your new subnet! {{img-url:/images/tutorials/vcnpart2.png}} </br> <small><em>Tip:</em> Only public subnets will allow instances to have public IPs.</small>",
+      "path": ""
+    }
+  ]
+}

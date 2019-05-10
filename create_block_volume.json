@@ -1,0 +1,39 @@
+{
+  "name":"Creating a Block Volume",
+  "description": "Walkthrough on creating a Block Volume.", 
+  "steps": [
+    {
+      "message": "Compute instances have their operating systems saved on a boot volume. If you require more storage, creating and attaching block volumes would add more storage to a compute instance.",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Block Storage\"</strong> and click <strong>\"Block Volumes\"</strong>.",
+      "path": "/block-storage/volumes"
+    },
+    {
+      "message": "Click Create Block Volumes. Choose a Name, and compartment. Choose the AD. Choose the size you wish then create the block volume. <small><em>Tip:</em> Block Volumes must be in the same AD as the compute instance it will be attached to choose the correct AD.</small>",
+      "path": ""
+    },
+    {
+      "message": "Block volumes must be attached to a compute instance. Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br>{{img-url:/images/tutorials/computemenu.png}}",
+      "path": ""
+    },
+    {
+      "message": "Click on the name of the instance you want to attach the block volume. Click Attached Block Volume, and click Attach Block Volume button. </br>{{img-url:/images/tutorials/bvattach.png}}",
+      "path": "/compute/instances"
+    },
+    {
+      "message": "Choose iSCSI or Paravirtualized. Choose a compartment. Under Block Volume choose the BV you just created. Choose the access type, read only or read & write. Then click create. <small><em>Tip:</em> For more infromation on Block Volumes, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm?Highlight=block%20volumes'>here</a>.</small>",
+      "path": ""
+    },
+    {
+      "message": "Finally if you chose iSCSI mode to attach, you have to run the iSCSI commands within the instance you attached it to. Open the three dotted menu to copy the iSCSI commands. </br>{{img-url:/images/tutorials/bviscsi.png}}",
+      "path": ""
+    },
+    {
+      "message": "SSH into your instance and paste/run those iSCSI commands. Finally you have your block volume attached to your instance! </br> If you run <code>sudo fdisk -l</code> you can view the attached storage as a new storage device. <small><em>Tip:</em> Make sure to properly format and mount it like you would any storage drive! Use popular format tools like parted.</small>",
+      "path": ""
+    }
+  ]
+}
+  

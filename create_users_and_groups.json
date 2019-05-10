@@ -1,0 +1,42 @@
+{
+  "name":"Create a Users, and Groups",
+  "description": "Walkthrough on creating users and groups in your tenancy.", 
+  "steps": [
+    {
+      "message": "In this tutorial we will guide you on how to create users and groups. You can also add users to groups. </br> A user's permissions to access services come from the groups which they belong to. The permissions given to a group is called a policy which we'll discuss later. <small><em>Tip:</em> Only users with user creation policies can create users.</small>",
+      "path": "/"
+    },
+    {
+      "message": "Click the <strong>menu button</strong> on top left.</br>{{img-url:/images/tutorials/menu.png}}",
+      "path": ""
+    },
+    {
+      "message": "With the side menu open. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Users\"</strong>. </br> {{img-url:/images/tutorials/iduser.png}}",
+      "path": "/identity/users"
+    },  
+    {
+      "message": "Click <strong>\"Create User\"</strong> button. Enter the Name of the user, a brief description, and an email for password recovery. Click <strong>\"Create button.\"</strong>",
+      "path": ""
+    },
+    {
+      "message": "Now a user has been created! Next we will create a group. </br> <small><em>Tip:</em> A user won't have access to resources until they are added to groups with policies specifying proper permissions.</small> ",
+      "path": ""
+    }, 
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Groups\"</strong>. </br> {{img-url:/images/tutorials/idgroups.png}}",
+      "path": "/identity/groups"
+    },
+    {
+      "message": "Click Create Group button. Enter the <strong>\"Name\"</strong> and <strong>\"Description\"</strong> of the group. </br> Click Submit. <small><em>Tip:</em> You can create groups by business organization or roles such as admin vs read only users.</small> {{img-url:/images/tutorials/idgroups2.png}}",
+      "path": ""
+    },
+    {
+      "message": "Once a group is created, users should be added. Click on the new created group name. Click <strong>\"AddUser to Group\"</strong>. </br> {{img-url:/images/tutorials/idaddusers.png}} ",
+      "path": ""
+    },
+    {
+      "message": "On the list add the users to this specific group. All users within the same group will now have the same privileges depending on the policy given to the group. </br> Congratulations finished the first tutorial on IAM! </br> <small><em>Tip:</em> Users require one-time passwords in order to access console and work with compartments. For this tutorial see User Credentials.</small>",
+      "path": ""
+    }
+  ]
+}

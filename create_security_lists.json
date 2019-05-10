@@ -1,0 +1,26 @@
+{
+  "name":"Creating Security Lists",
+  "description": "Walkthrough on creating a Security List.", 
+  "steps": [
+    {
+      "message": "VCNs are created with one default security lists, and more can be created to manage different security list for each subnet. </br> In this tutorial we will show you how to create a Security List.",
+      "path": ""
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Virtual Cloud Networks\"</strong>. </br> {{img-url:/images/tutorials/vcnmenu.png}}",
+      "path": "/networking/vcns"
+    },
+    {
+      "message": "Choose the VCN you wish to add subnets to. Under Resources, Click Security Lists, then Create Security List. </br> {{img-url:/images/tutorials/vcnseclist.png}} ",
+      "path": ""
+    },
+    {
+      "message": "Choose the compartment for the Security List and Apply a name. Here allows you to add all the Ingress and Egress rules for the security list. </br> <small><em>Tip:</em>For more information on Ingress vs Egress and Stateless vs Stateful go <a href='https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm?Highlight=egress>here.</a>.</small> ",
+      "path": ""
+    },
+    {
+      "message": "Create the Security List. Now, when you create a subnet you can choose the custom Security Lists in the drop down menu instead of the default.",
+      "path": ""
+    }
+  ]
+}
