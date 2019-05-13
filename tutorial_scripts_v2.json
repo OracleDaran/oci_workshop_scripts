@@ -137,7 +137,7 @@
           },
           {
             "name": "3. Creating Load Balancer",
-            "type": "Tutorial",
+            "type": "Category",
             "list": [
               {
                 "name": "3.1 Create Load Balancer",
