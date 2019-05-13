@@ -1,5 +1,5 @@
 {
-  "name":"",
+  "name":"jump_server_load_balancer_internet_gw_and_nat_gw",
   "description": "", 
   "steps": [
     {
@@ -10,6 +10,15 @@
     },
     {
       "message": "Name your Internet Gateway, the compartment should be the same one with your VCN. {{img-url:/images/tutorials/jump_server_load_balancer/internet_gateway_config.png}}</br>Click on Create Internet Gateway button at the bottom and finish."
+    },
+    {
+      "message": "Similar to public subnet, all your private subnet's Internet traffic should be sent out through an <strong>NAT Gateway</strong>. At this step, we will create an <strong>NAT Gateway</strong> for future usage."
+    },
+    {
+      "message": "Same as Internet Gateway, select <strong>NAT Gateway</strong> on the left.</br> {{img-url:/images/tutorials/jump_server_load_balancer/nat_gw_menu.png}}</br>Within <strong>NAT Gateways</strong> tab, click on <strong>\"Create NAT Gateway\"</strong>.<br> {{img-url:/images/tutorials/jump_server_load_balancer/create_nat_gateway_button.png}}"
+    },
+    {
+      "message": "Name your NAT Gateway, the compartment should be the same one with your VCN. {{img-url:/images/tutorials/jump_server_load_balancer/nat_gateway_config.png}}</br>Click on Create NAT Gateway button at the bottom and finish."
     }
   ]
 }

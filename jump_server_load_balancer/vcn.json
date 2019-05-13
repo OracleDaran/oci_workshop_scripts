@@ -1,5 +1,5 @@
 {
-  "name":"Creating a VCN",
+  "name":"jump_server_load_balancer_vcn",
   "description": "Walkthrough on a VCN for all your resources.", 
   "steps": [
     {
