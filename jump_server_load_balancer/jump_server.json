@@ -3,25 +3,16 @@
   "description": "", 
   "steps": [
     {
-      "message": "Finally, we can create our subnets."
+      "message": "There are three instances we are making, a <strong>Jump Server</strong> and two <strong>Backend Servers</strong>"
     },
     {
-      "message": "Select <strong>Subnets</strong> on the left in your VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/subnet_menu.png}}"
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br> {{img-url:/images/tutorials/jump_server_load_balancer/compute_menu.png}} Then, select the <strong>Create Instance</strong> button.{{img-url:/images/tutorials/jump_server_load_balancer/create_instance_button.png}}"
     },
     {
-      "message": "At here we are going to create three <strong>Subnets</strong>, which will accommodate the Jump Server, Backend Servers and Load Balancer Listener.</br>Click on <strong>Create Subnet</strong>.</br>{{img-url:/images/tutorials/jump_server_load_balancer/create_subnet_button.png}}"
+      "message": "You will be redirected to the compute instance creation page. First, let's name our server \"jump_server\".{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_config_1.png}}Next, scroll down and choose or paste your <strong>Public SSH Key</strong>.{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_config_2.png}}Finally, we put the instance in our <em>jump_server_subnet</em>.{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_config_3.png}}Now, let's wait a bit for the server to be created."
     },
     {
-      "message": "Let's create <strong>jump_server_subnet</strong> first.</br>Let's assign the CIDR block to <em>10.0.1.0/24</em>. Route table for this subnet is <em>public_subnet_route_table</em> since we want to access the jump server from Internet. This will also be a public subnet for public(Internet) access. Finally, the <strong>Security List</strong> will be <em>jump_server_security_list</em> that we created in the previous steps. We can leave all other fields as default. {{img-url:/images/tutorials/jump_server_load_balancer/jump_server_subnet_config_1.png}}{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_subnet_config_2.png}}"
-    },
-    {
-      "message": "Next, let's create <strong>backend_server_subnet</strong>.</br>Assign the CIDR block to <em>10.0.2.0/24</em>. Route table for this subnet is <em>private_subnet_route_table</em>. This will be a private subnet, so for <strong>Subnet Access</strong>, select <em>private subnet</em>. Finally, the <strong>Security List</strong> will be <em>backend_server_security_list</em>.{{img-url:/images/tutorials/jump_server_load_balancer/backend_subnet_config_1.png}}{{img-url:/images/tutorials/jump_server_load_balancer/backend_subnet_config_2.png}}"
-    },
-    {
-      "message": "Last, let's create <strong>load_balancer_subnet</strong> first.</br>Assign the CIDR block to <em>10.0.3.0/24</em>. Route table for this subnet is <em>public_subnet_route_table</em> since we want to access from Internet. This will also be a public subnet. Finally, the <strong>Security List</strong> will be <em>load_balancer_security_list</em>.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_subnet_config_1.png}}{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_subnet_config_2.png}}"
-    },
-    {
-      "message": "Now, all networking components are created, and we can move on to <em>Step 2</em>."
+      "message": "At this step, we will SSH into the <strong>Jump Server</strong>. You can find your <strong>Public IP</strong> in the <strong>Primary VNIC Information</strong> section.{{img-url:/images/tutorials/jump_server_load_balancer/public_ip_address.png}}Now let's open our terminal and SSH into the Jump Server. Run command <code>ssh -i <your private key> opc@<your jump box public ip></code>{{img-url:/images/tutorials/jump_server_load_balancer/ssh_into_jump_server.png}}Once we are in the server, we will create <strong>SSH Key Pair</strong> for provisioning the <strong>Backend Servers</strong>. Run <code>ssh-keygen</code> and spam your enter key, we will have ourselves a pair of SSH Keys. Run <code>cat ~/.ssh/id_rsa.pub</code> to get your <strong>Public Key</strong>. Copy your <strong>Public Key</strong> and we will use it to create two <strong>Backend Servers</strong>"
     }
   ]
 }
