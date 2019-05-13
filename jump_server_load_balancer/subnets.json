@@ -21,7 +21,7 @@
       "message": "Last, let's create <strong>load_balancer_subnet</strong> first.</br>Assign the CIDR block to <em>10.0.3.0/24</em>. Route table for this subnet is <em>public_subnet_route_table</em> since we want to access from Internet. This will also be a public subnet. Finally, the <strong>Security List</strong> will be <em>load_balancer_security_list</em>.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_subnet_config_1.png}}{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_subnet_config_2.png}}"
     },
     {
-      "message": "Now, all networking components are created, and we can move on to <em>Step 2.1</em>."
+      "message": "Now, all networking components are created, and we can move on to Step 2.1 Create Jump Server"
     }
   ]
 }

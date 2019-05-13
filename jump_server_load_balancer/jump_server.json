@@ -13,6 +13,9 @@
     },
     {
       "message": "At this step, we will SSH into the <strong>Jump Server</strong>. You can find your <strong>Public IP</strong> in the <strong>Primary VNIC Information</strong> section.{{img-url:/images/tutorials/jump_server_load_balancer/public_ip_address.png}}Now let's open our terminal and SSH into the Jump Server. Run command <code>ssh -i &lt;your private key&gt; opc@&lt;your jump box public ip&gt;</code>{{img-url:/images/tutorials/jump_server_load_balancer/ssh_into_jump_server.png}}Once we are in the server, we will create <strong>SSH Key Pair</strong> for provisioning the <strong>Backend Servers</strong>. Run <code>ssh-keygen</code> and spam your enter key, we will have ourselves a pair of SSH Keys. Run <code>cat ~/.ssh/id_rsa.pub</code> to get your <strong>Public Key</strong>. Copy your <strong>Public Key</strong> and we will use it to create two <strong>Backend Servers</strong>."
+    },
+    {
+      "message": "Now you can proceed to step 2.2 Create Backend Server"
     }
   ]
 }

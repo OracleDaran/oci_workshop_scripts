@@ -10,6 +10,9 @@
     }, 
     {
       "message": "Now, you should have two <strong>Backend Servers</strong> and one <strong>Jump Server</strong>. In order to server the contents we just inserted to the backend servers, we need to create a <strong>Load Balancer</strong>"
+    },
+    {
+      "message": "You can proceed to step 3.1 Create Load Balancer"
     }
   ]
 }
