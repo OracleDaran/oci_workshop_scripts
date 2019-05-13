@@ -1,12 +1,12 @@
 {
-  "name":"jump_server_load_balancer_jump_server",
+  "name":"jump_server_load_balancer_backend_server",
   "description": "", 
   "steps": [
     {
       "message": "Just like how we created our first instance. Let's name our server \"backend_server_1\" and \"backend_server_2\". Next, scroll down and paste your Jump Server's <strong>Public SSH Key</strong>. Finally, we put both backend servers in our <em>backend_server_subnet</em>."
     },
     {
-      "message": "After both instances are made, we now can SSH into the Backend Servers from our Jump Server. First, let's find the <strong>Private IP</strong> address for both instances. {{img-url:/images/tutorials/jump_server_load_balancer/private_ip_address.png}} From the <strong>Jump Server</strong> run <code>ssh opc@<private_ip_address_1></code> and run <code>sudo su - root</br>echo y | yum install httpd</br>systemctl start httpd</br>systemctl enable httpd</br>firewall-cmd --zone=public --permanent --add-service=http</br>firewall-cmd --reload</br>echo \"server 1\" > /var/www/</br>html/index.html</br>systemctl restart httpd.service</code> now disconnect from the backend server and ssh to the second jump server <code>ssh opc@<private_ip_address_2></code> on the second backend server run <code>sudo su - root</br>echo y | yum install httpd</br>systemctl start httpd</br>systemctl enable httpd</br>firewall-cmd --zone=public --permanent --add-service=http</br>firewall-cmd --reload</br>echo \"server 2\" > /var/www/</br>html/index.html</br>systemctl restart httpd.service</code>"
+      "message": "After both instances are made, we now can SSH into the Backend Servers from our Jump Server. First, let's find the <strong>Private IP</strong> address for both instances. {{img-url:/images/tutorials/jump_server_load_balancer/private_ip_address.png}} From the <strong>Jump Server</strong> run <code>ssh opc@&lt;private_ip_address_1&gt;</code> and run </br><code>sudo su - root</br>echo y | yum install httpd</br>systemctl start httpd</br>systemctl enable httpd</br>firewall-cmd --zone=public --permanent --add-service=http</br>firewall-cmd --reload</br>echo \"server 1\" > /var/www/</br>html/index.html</br>systemctl restart httpd.service</code> now disconnect from the backend server and ssh to the second jump server <code>ssh opc@&lt;private_ip_address_2&lt;</code> on the second backend server run </br><code>sudo su - root</br>echo y | yum install httpd</br>systemctl start httpd</br>systemctl enable httpd</br>firewall-cmd --zone=public --permanent --add-service=http</br>firewall-cmd --reload</br>echo \"server 2\" > /var/www/</br>html/index.html</br>systemctl restart httpd.service</code>"
     }, 
     {
       "message": "Now, you should have two <strong>Backend Servers</strong> and one <strong>Jump Server</strong>. In order to server the contents we just inserted to the backend servers, we need to create a <strong>Load Balancer</strong>"

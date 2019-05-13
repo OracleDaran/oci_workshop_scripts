@@ -1,0 +1,15 @@
+{
+  "name":"jump_server_load_balancer_load_balancer",
+  "description": "", 
+  "steps": [
+    {
+      "message": "Finally, we can create our <strong>Load Balancer</strong>. Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_menu.png}} Click on <strong>Create Load Balancer</strong> button.{{img-url:/images/tutorials/jump_server_load_balancer/create_load_balancer_button.png}}"
+    },
+    {
+      "message": "Let's name the <strong>Load Balancer</strong> <em>load_balancer</em> {{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_config_1.png}}Select our VCN and set the <strong>Load Balancer Listener</strong> in the <em>load_balancer_subnet</em>.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_config_2.png}}Finally, add both of our backend servers into the backend set.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_config_3.png}}Hit the create button and we have our load balancer."
+    },
+    {
+      "message": "After the <strong>Load Balancer</strong> is fully provisioned, we can find its IP address in the information section.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_public_ip.png}}Copy and paste the IP address in your browser and visit the IP address, you will see the Load Balancer working and switching in between servers.{{img-url:/images/tutorials/jump_server_load_balancer/switch.png}}"
+    }
+  ]
+}
