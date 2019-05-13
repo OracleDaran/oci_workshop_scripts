@@ -1,0 +1,18 @@
+{
+  "name":"Creating a VCN",
+  "description": "Walkthrough on a VCN for all your resources.", 
+  "steps": [
+    {
+      "message": "First, we need to create a VCN as a whole network for all your resources."
+    },
+    {
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Virtual Cloud Networks\"</strong>. </br> {{img-url:/images/tutorials/vcn_menu.png}} "
+    },
+    {
+      "message": "First, name your VCN.</br>Choose the compartment you want the VCN in.</br>Then, choose <strong>\"CREATE VIRTUAL CLOUD NETWORK ONLY\"</strong> to create only a network.</br>At here we use 10.0.0.0/16 for our CIDR block.</br>{{img-url:/images/tutorials/jump_server_load_balancer/vcn_config.png}}</br>The rest options can be default."
+    },
+    {
+      "message": "Click <strong>\"Create Virtual Cloud Network\"</strong> at the bottom of the page and your new VCN will be provisioned.</br>{{img-url:/images/tutorials/vcn_create_button.png}}"
+    }
+  ]
+}

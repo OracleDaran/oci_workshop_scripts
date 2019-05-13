@@ -1,0 +1,36 @@
+{
+  "name":"",
+  "description": "", 
+  "steps": [
+    {
+      "message": "Since we are going to have a jump server (public machine), two servers (private machines), and a load balancer (lives in public subnet). We need to create 3 sets of <strong>security lists</strong> and <strong>route tables</strong> for each of their subnet."
+    },
+    {
+      "message": "Select <strong>Security Lists</strong> on the left in your VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/security_list_menu.png}}"
+    },
+    {
+      "message": "We are going to create 3 security lists for <strong>Jump Server Subnet</strong>, <strong>Backend Server Subnet</strong>, and <strong>Load Balancer Subnet</strong>.</br>Click on <strong>Create Security List</strong>.</br>{{img-url:/images/tutorials/jump_server_load_balancer/create_security_list_button.png}}"
+    },
+    {
+      "message": "Let's create the <strong>Jump Server Subnet Security List</strong> first. Let's give it a name <em>jump_server_security_list</em></br>{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_security_list.png}}</br>For a jump server, we want to allow ingress traffic to access port 22 therefore we can SSH to the machine.{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_ingress.png}}</br>At the same time, to make it easy, we allow all out-bounding traffic for this subnet.</br>{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_egress.png}}"
+    },
+    {
+      "message": "Now we can create <strong>Backend Server Subnet Security List</strong> in similar fashion. First, we name it <em>backend_server_security_list</em>. Now let's give this security list a bit different rules.</br>Besides port 22, we now want port 80 for ingress, which allows the <strong>Load Balancer</strong> to access the servers in the future. Also, the source CIDR is limited to 10.0.0.0/16 to only allow internal traffic.{{img-url:/images/tutorials/jump_server_load_balancer/backend_server_ingress.png}}</br>As for the egress rules, we still want all traffic to go out.{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_egress.png}}"
+    },
+    {
+      "message": "At the end, let's create <strong>Load Balancer Subnet Security List</strong> with name <em>load_balancer_security_list</em>. It is very similar to <strong>Jump Server Subnet Security List</strong>, but we expose port 80 instead 22.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_ingress.png}}</br>As for the egress rules, we still want all traffic to go out.{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_egress.png}}"
+    },
+    {
+      "message": "Now you should have security lists similar to the following picture. {{img-url:/images/tutorials/jump_server_load_balancer/security_lists.png}}"
+    },
+    {
+      "message": "Since we will use 2 <strong>Public Subnets</strong> and 1 <strong>Private Subnet</strong>, we would need 2 <strong>Route Table</strong> to route their traffic to either <strong>Internet Gateway</strong> or <strong>NAT Gateway</strong>. At this step, we will be creating 2 <strong>Route Tables</strong>."
+    },
+    {
+      "message": "Select <strong>Route Table</strong> tab from the left of VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/route_table_menu.png}}</br>Click on the <strong>Create Route Table</strong> button.{{img-url:/images/tutorials/jump_server_load_balancer/create_route_table_button.png}}Let's name the first <strong>Route Table</strong> <em>public_subnet_route_table</em>. The target type should be <strong>Internet Gateway</strong>, and all traffic (0.0.0.0/0) should be directed to the <strong>Internet Gateway</strong> we created. The configuration should be like the following picture.{{img-url:/images/tutorials/jump_server_load_balancer/public_subnet_route_table.png}}</br>Similar to the above steps, now we create another route table using the name <em>private_subnet_route_table</em> and send all traffic (0.0.0.0/0) to <strong>NAT Gateway</strong>.{{img-url:/images/tutorials/jump_server_load_balancer/private_subnet_route_table.png}}"
+    },
+    {
+      "message": "Now we can move on to step 1.5"
+    }
+  ]
+}

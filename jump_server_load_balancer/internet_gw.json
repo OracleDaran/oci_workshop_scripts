@@ -1,0 +1,15 @@
+{
+  "name":"",
+  "description": "", 
+  "steps": [
+    {
+      "message": "Theoretically, all your public subnet's Internet traffic should be sent out through a <strong>Internet Gateway</strong>. At this step, we will create a <strong>Internet Gateway</strong> for future usage."
+    },
+    {
+      "message": "After the creation of the VCN, you should be in the VCN detail page, select <strong>Internet Gateway</strong> on the left.</br> {{img-url:/images/tutorials/jump_server_load_balancer/internet_gw_menu.png}} </br>Within <strong>Internet Gateways</strong> tab, click on <strong>\"Create Internet Gateway\"</strong>.<br> {{img-url:/images/tutorials/jump_server_load_balancer/create_internet_gateway_button.png}}"
+    },
+    {
+      "message": "Name your Internet Gateway, the compartment should be the same one with your VCN. {{img-url:/images/tutorials/jump_server_load_balancer/internet_gateway_config.png}}</br>Click on Create Internet Gateway button at the bottom and finish."
+    }
+  ]
+}
