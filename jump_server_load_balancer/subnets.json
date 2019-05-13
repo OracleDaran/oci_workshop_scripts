@@ -3,7 +3,7 @@
   "description": "", 
   "steps": [
     {
-      "message": "Finally, we can create our subnets."
+      "message": "<h4>1.4 Create Subnets</h4>Finally, we can create our subnets."
     },
     {
       "message": "Select <strong>Subnets</strong> on the left in your VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/subnet_menu.png}}"

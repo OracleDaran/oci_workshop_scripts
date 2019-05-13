@@ -3,7 +3,7 @@
   "description": "", 
   "steps": [
     {
-      "message": "There are three instances we are making, a <strong>Jump Server</strong> and two <strong>Backend Servers</strong>"
+      "message": "<h4>2.1 Create Jump Server</h4>There are three instances we are making, a <strong>Jump Server</strong> and two <strong>Backend Servers</strong>"
     },
     {
       "message": "Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br> {{img-url:/images/tutorials/jump_server_load_balancer/compute_menu.png}} Then, select the <strong>Create Instance</strong> button.{{img-url:/images/tutorials/jump_server_load_balancer/create_instance_button.png}}"

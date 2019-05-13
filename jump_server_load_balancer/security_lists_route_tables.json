@@ -3,7 +3,7 @@
   "description": "", 
   "steps": [
     {
-      "message": "Since we are going to have a jump server (public machine), two servers (private machines), and a load balancer (lives in public subnet). We need to create 3 sets of <strong>security lists</strong> and <strong>route tables</strong> for each of their subnet."
+      "message": "<h4>1.3 Create Security Lists and Route Tables</h4>Since we are going to have a jump server (public machine), two servers (private machines), and a load balancer (lives in public subnet). We need to create 3 sets of <strong>security lists</strong> and <strong>route tables</strong> for each of their subnet."
     },
     {
       "message": "Select <strong>Security Lists</strong> on the left in your VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/security_list_menu.png}}"

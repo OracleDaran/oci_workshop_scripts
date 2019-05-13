@@ -142,11 +142,7 @@
               {
                 "name": "3.1 Create Load Balancer",
                 "type": "Tutorial",
-                "path": "/jump_server_load_balancer/load_balancer_1.json"
-              }, {
-                "name": "3.2 Check Load Balancer",
-                "type": "Tutorial",
-                "path": "/jump_server_load_balancer/load_balancer_2.json"
+                "path": "/jump_server_load_balancer/load_balancer.json"
               }
             ]
           }
