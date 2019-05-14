@@ -15,7 +15,7 @@
       "message": "Click <strong>\"Create Virtual Cloud Network\"</strong> at the bottom of the page and your new VCN will be provisioned.</br>{{img-url:/images/tutorials/jump_server_load_balancer/vcn_create_button.png}}"
     },
     {
-      "message": "You can proceed to step 1.2 Create Internet Gateway and NAT Gateway"
+      "message": "You can proceed to step <a class='next-step' href='/jump_server_load_balancer/internet_gw.json'>1.2 Create Internet Gateway and NAT Gateway</a>"
     }
   ]
 }

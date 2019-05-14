@@ -21,7 +21,7 @@
       "message": "Name your NAT Gateway, the compartment should be the same one with your VCN. {{img-url:/images/tutorials/jump_server_load_balancer/nat_gateway_config.png}}</br>Click on Create NAT Gateway button at the bottom and finish."
     },
     {
-      "message": "You can now proceed to step 1.3 Create Security Lists and Route Tables"
+      "message": "You can now proceed to step <a class='next-step' href='/jump_server_load_balancer/security_lists_route_tables.json'>1.3 Create Security Lists and Route Tables</a>"
     }
   ]
 }
