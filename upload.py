@@ -37,7 +37,7 @@ def put_object(directory):
         continue
       md5 = calculate_md5(path)
       with open(path, "rb") as content:
-        if md5 == existing_objects[name]:
+        if md5 == existing_objects.get(name):
           print(u"skip:\t{} (file exists)".format(name))
           continue
         if file_extension == '.json':
