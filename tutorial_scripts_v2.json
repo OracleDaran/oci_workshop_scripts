@@ -86,7 +86,7 @@
       }]
     },
     {
-      "name": "Advanced Topics",
+      "name": "Advanced Networking",
       "type": "Category",
       "list": [{
         "name": "Jump Server, Instances, and Load Balancer",
@@ -95,7 +95,7 @@
           {
             "name": "0. Creating Compartment (optional)",
             "type": "Tutorial",
-            "path": "/create_compartment.json"
+            "path": "/jump_server_load_balancer/create_compartment.json"
           },
           {
             "name": "1. Create Networks",
@@ -142,7 +142,7 @@
               {
                 "name": "3.1 Create Load Balancer",
                 "type": "Tutorial",
-                "path": "/jump_server_load_balancer/load_balancer.json"
+                "path": "/ /load_balancer.json"
               }
             ]
           }

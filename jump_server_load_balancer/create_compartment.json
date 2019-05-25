@@ -1,0 +1,38 @@
+{
+    "name": "Create a Compartment",
+    "description": "Walkthrough on creating compartments to logically separate, organize, and isolate your cloud resources.",
+    "steps": [
+      {
+        "message": "In this tutorial we will guide you how to create a compartment.",
+        "path": "/"
+      },
+      {
+        "message": "Click the <strong>menu button</strong> on top left. </br>{{img-url:/images/tutorials/menu.png}}",
+        "path": "/"
+      },
+      {
+        "message": "With the side menu open. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Compartments\"</strong>. </br> {{img-url:/images/tutorials/idcompartment.png}}",
+        "path": "/identity/compartments"
+      },
+      {
+        "message": "In OCI you can create nested compartments. Root compartment is the default. </br> For now we are going to create a compartment under <strong>Root Compartment</strong>. Click the blue <strong>\"Create Compartment\"</strong> button on top. {{img-url:/images/tutorials/idcompartment.png}} </br> <small><em>Tip:</em> You can create subcompartments inside of compartments to create hierarchies that are six levels deep.</small>",
+        "path": ""
+      },
+      {
+        "message": "Enter the following required areas: </br> <strong>\"Name\"</strong> and <strong>\"Description\"</strong>. </br>Please input your information accordingly. <small><em>Tip:</em> <strong>TAGS</strong> are for managing purposes use, we will learn about them later.</small></br> ",
+        "path": ""
+      },
+      {
+        "message": "Click <strong>\"Create Compartment\"</strong> button and you will have your first sub compartment under root compartment.</br> {{img-url:/images/tutorials/idnested.png}}",
+        "path": ""
+      },
+      {
+        "message": "<a href='/' target='_blank'>Click here to go back to <strong>HOME</strong></a> <small><em>Tip:</em> For more information about compartments visit the documentation <a href='https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm' target='_blank'>here.</a></small>",
+        "path": "/"
+      },
+      {
+          "message": "You can proceed to step <a class='next-step' href='/jump_server_load_balancer/vcn.json'>1.1 Create VCN",
+          "path": "/"
+      }
+    ]
+  }
