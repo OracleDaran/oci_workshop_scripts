@@ -6,8 +6,6 @@ _Oracle Workshop Extension_ used in the OCI Console to help guide on using commo
 
 ![Screenshot](/OCIExtension.jpg)
 
-**IMPORTANT**: This extension is only enabled when you are in OCI console. 
-
 Scripts are in JSON format and have a standard outline.
 
 JSON Outline Example: 
