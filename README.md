@@ -63,7 +63,7 @@ Tutorials:
    * Reserve Public IP
 * Compute
   * Create Compute
-  * Create Oracle Marketplace images*
+  * Create Oracle Marketplace Images*
   * Create Custom Compute*
 * Block Storage 
    * Create and Attach

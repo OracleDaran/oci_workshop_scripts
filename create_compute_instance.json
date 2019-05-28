@@ -11,19 +11,19 @@
       "path": "/compute/instances"
     },
     {
-      "message": "Click Create Instance. Choose a name. For high availability there are 3 Availability Domains per region. Choose one where a subnet is available. Under \"Operating System\" choose your image, for this tutorial we will choose the default Oracle Linux 7.",
+      "message": "Click Create Instance. Choose a name. For high availability there are 3 Availability Domains per region. Choose one where a subnet is available. Under \"Operating System\" choose your image. For this tutorial we will choose the default Oracle Linux 7.",
       "path": ""
     },
     {
-      "message": "Choose Virtual Machines. <small><em>Tip:</em>Bare Metal is required if you don't need virtualization.</small> </br> For now choose VMs. To determine OCPU number and RAM GB size, OCI uses shapes for the different configurations of both. Choose any available or depending on workload.",
+      "message": "Choose Virtual Machines. To determine OCPU number and RAM GB size, OCI uses shapes for the different configurations of both. Choose any available or depending on workload. </br><small><em>Tip:</em>Bare Metal is required if you don't need virtualization.</br> Oracle CPU is equivalent to one physical core.</small>",
       "path": ""
     },
     {
-      "message": "Add your public key in order to SSH into your instance. Under Networking choose the VCN you created before and the subnet. Skip Advanced Settings for now. </br> Click Create to create your first compute instance.",
+      "message": "Add your public key in order to SSH into your instance. Under Networking choose the VCN you created before and the subnet. Skip Advanced Settings for now. </br></br> Click Create to create your first compute instance. </br><small><em>Tips:</em> For Mac/Linux you can easily copy your keys using \"pbcopy < ~/.ssh/id_rsa.pub\" command. </small>",
       "path": ""
     },
     {
-      "message": "For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>.",
+      "message": "Congratulation, you created your first compute. For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>.",
       "path": ""
     }
   ]
