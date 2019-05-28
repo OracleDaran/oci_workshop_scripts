@@ -56,9 +56,9 @@ Tutorials:
    * Audit*
 * Networking
    * Create VCN
-   * Create security lists 
-   * Create route table=
-   * Create subnet
+   * Create Security Lists 
+   * Create Route Table
+   * Create Subnet
    * Create Internet Gateway
    * Reserve Public IP
 * Compute
