@@ -11,7 +11,7 @@
       "path": "/block-storage/volumes"
     },
     {
-      "message": "Click Create Block Volumes. Choose a Name, and compartment. Choose the AD. Choose the size you wish then create the block volume. <small><em>Tip:</em> Block Volumes must be in the same AD as the compute instance it will be attached to choose the correct AD.</small>",
+      "message": "Click Create Block Volumes. Choose a Name, and compartment. Choose the AD. Choose the size you wish then create the block volume. <small><em>Tip:</em> Block Volumes must be in the same AD as the compute instance it will be attached to choose the correct AD. </br> Block Volumes also provide policy based backups <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm' target='_blank'>more information here.</a></small>",
       "path": ""
     },
     {
