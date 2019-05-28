@@ -11,7 +11,7 @@
       "path": "/block-storage/volumes"
     },
     {
-      "message": "Click Create Block Volumes. Choose a Name, and compartment. Choose the AD. Choose the size you wish then create the block volume. <small><em>Tip:</em> Block Volumes must be in the same AD as the compute instance it will be attached to choose the correct AD. </br> Block Volumes also provide policy based backups <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm' target='_blank'>more information here.</a></small>",
+      "message": "Click Create Block Volumes. Choose a Name, and compartment. Choose the AD. Choose the size you wish then create the block volume. Create block volume. <small><em>Tip:</em> Block Volumes must be in the same AD as the compute instance it will be attached to, so choose the correct AD. </br></br> Block Volumes also provide policy based backups <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm' target='_blank'>more information here.</a></small>",
       "path": ""
     },
     {
@@ -23,7 +23,7 @@
       "path": "/compute/instances"
     },
     {
-      "message": "Choose iSCSI or Paravirtualized. Choose a compartment. Under Block Volume choose the BV you just created. Choose the access type, read only or read & write. Then click create. <small><em>Tip:</em> For more infromation on Block Volumes, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm?Highlight=block%20volumes'>here</a>.</small>",
+      "message": "Choose iSCSI or Paravirtualized. Choose a compartment. Under Block Volume choose the BV you just created. Choose the access type, read only or read & write. Then click create. <small><em>Tip:</em> For more infromation on Block Volumes, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm?Highlight=block%20volumes'>here</a>.</small> {{img-url:/images/tutorials/bvattach2.png}}",
       "path": ""
     },
     {

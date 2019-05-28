@@ -7,7 +7,7 @@
       "path": "/"
     },
     {
-      "message": "There are two types of tagging. <strong>Free-form</strong> tags, and <strong>Defined</strong> tags. For this tutorial we will create a Defined Tag. <small><em>Tip:</em> More information about the differences <a href=\"https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/taggingoverview.htm?Highlight=tags\">here.</a></small>",
+      "message": "There are two types of tagging. <strong>Free-form</strong> tags, and <strong>Defined</strong> tags. For this tutorial we will create a Defined Tag. <small><em>Tip:</em> More information about the differences <a href=\"https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/taggingoverview.htm?Highlight=tags\">here</a></small>",
       "path": "/"
     }, 
     {

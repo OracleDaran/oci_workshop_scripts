@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating users and groups in your tenancy.", 
   "steps": [
     {
-      "message": "In this tutorial we will guide you on how to create users and groups. As well as adding users to groups. </br> A user must belong to a group in order to apply policies that state which access to services they have. The permissions given to a group is called a policy which we'll discuss later. <small><em>Tip:</em> Only users with user creation policies can create users.</small>",
+      "message": "In this tutorial we will guide you on how to create users and groups. As well as adding users to groups. </br> A user must belong to a group in order to have policies that state which access to services they have. </br>The permissions given to a group is called a policy which we'll discuss later. <small><em>Tip:</em> Only users with user creation policies can create users.</small>",
       "path": "/"
     },
     {
@@ -15,7 +15,7 @@
       "path": "/identity/users"
     },  
     {
-      "message": "Click <strong>\"Create User\"</strong> button. Enter the Name of the user, a brief description, and an email for password recovery. Click <strong>\"Create button.\"</strong>",
+      "message": "Click <strong>\"Create User\"</strong> button. Enter the Name of the user, a brief description, and an email for password recovery. </br>Click <strong>\"Create button.\"</strong>",
       "path": ""
     },
     {
@@ -31,7 +31,7 @@
       "path": ""
     },
     {
-      "message": "Once a group is created, users should be added. Click on the new created group name. Click <strong>\"AddUser to Group\"</strong>. </br> {{img-url:/images/tutorials/idaddusers.png}} ",
+      "message": "Once a group is created, users should be added. Click on the new created group name. </br>Click <strong>\"AddUser to Group\"</strong>. </br> {{img-url:/images/tutorials/idaddusers.png}} ",
       "path": ""
     },
     {

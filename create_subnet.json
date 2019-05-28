@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating a subnet.", 
   "steps": [
     {
-      "message": "Subnets is a subdivision of a VCN. Subnets contain vNICs, which attach to instances. </br> Just like VCNs, each subnet must be a continuous range. Subnets can be AD specific or regional.",
+      "message": "Subnets is a subdivision of a VCN. </br> Just like VCNs, each subnet must be a continuous range. Subnets can be AD specific or regional. <small><em>Tip:</em> Subnets contain vNICs, which attach to instances.</small>",
       "path": ""
     },
     {
@@ -19,11 +19,11 @@
       "path": ""
     },
     {
-      "message": "Choose whether you want a public or private subnet. </br>Leave DNS Resolution checked. DHCP options can be kept default. If you created a custom Security List choose that, otherwise choose the default Security Lists.",
+      "message": "Choose whether you want a public or private subnet. </br>Leave DNS Resolution checked. DHCP options can be kept default. If you created a custom Security List choose that, otherwise choose the default Security Lists. </br>{{img-url:/images/tutorials/vcnpart2.png}} ",
       "path": ""
     },
     {
-      "message": "Create your new subnet! </br> <small><em>Tip:</em> Only public subnets will allow instances to have public IPs.</small> </br>{{img-url:/images/tutorials/vcnpart2.png}} ",
+      "message": "Create your new subnet! </br> <small><em>Tip:</em> Only public subnets will allow instances to have public IPs.</small>",
       "path": ""
     }
   ]

@@ -15,15 +15,15 @@
       "path": ""
     },
     {
-      "message": "Choose Virtual Machines. To determine OCPU number and RAM GB size, OCI uses shapes for the different configurations of both. Choose any available or depending on workload. </br><small><em>Tip:</em>Bare Metal is required if you don't need virtualization.</br> Oracle CPU is equivalent to one physical core.</small>",
+      "message": "Choose Virtual Machines. To determine OCPU number and RAM GB size, OCI uses shapes for the different configurations of both. Choose any available or depending on workload. </br><small><em>Tip:</em> Bare Metal is required if you don't need virtualization.</br> Oracle CPU is equivalent to one physical core.</small>",
       "path": ""
     },
     {
-      "message": "Add your public key in order to SSH into your instance. Under Networking choose the VCN you created before and the subnet. Skip Advanced Settings for now. </br></br> Click Create to create your first compute instance. </br><small><em>Tips:</em> For Mac/Linux you can easily copy your keys using \"pbcopy < ~/.ssh/id_rsa.pub\" command. </small>",
+      "message": "Add your public key in order to SSH into your instance. </br>Under Networking choose the VCN you created before and the subnet. Skip Advanced Settings for now. </br></br> Click Create to create your first compute instance. </br><small><em>Tips:</em> For Mac/Linux you can easily copy your keys using \"pbcopy < ~/.ssh/id_rsa.pub\" command. </small>",
       "path": ""
     },
     {
-      "message": "Congratulation, you created your first compute. For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>.",
+      "message": "Congratulation, you created your first compute. For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>",
       "path": ""
     }
   ]

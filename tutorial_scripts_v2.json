@@ -87,7 +87,7 @@
       "name": "Block Storage",
       "type": "Category",
       "list": [{
-        "name": "Create Block Volume",
+        "name": "Create and Attach Block Volume",
         "type": "Tutorial",
         "path": "/create_block_volume.json"
       }]

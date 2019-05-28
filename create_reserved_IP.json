@@ -27,10 +27,6 @@
         "path": ""
       },
       {
-        "message": "One VNIC should be attached when the compute instance was created. Click on the VNIC name. Under <strong>\"Resources\"</strong> click <strong>\"IP Addresses\"</strong>.</br>{{img-url:/images/tutorials/vcnipaddresses.png}}",
-        "path": ""
-      },
-      {
         "message": "In order to assign a reserved public IP you have to unassign the existing Public IP. Click on the menu on the public IP and click edit. Choose <strong>\"No Public IP\"</strong> to unassign the current public IP. Click on Update. </br>{{img-url:/images/tutorials/vcnunassignip.png}}",
         "path": ""
       },

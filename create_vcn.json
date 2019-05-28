@@ -3,7 +3,7 @@
   "description": "Walkthrough on a VCN for all your resources.", 
   "steps": [
     {
-      "message": "In this tutorial we will guide you on how to create a Virtual Cloud Network (VCN) for all your Computes, Databases, and other resources. </br><small><em>Tip:</em> Use Create VCN and related resources to quickly get you started. Choosing related resources creates three public subnets, internet gateway, and sets up IG route rule. In this tutorial we shall make the <strong>Virtual CLoud Network Only.</strong></small>",
+      "message": "In this tutorial we will guide you on how to create a Virtual Cloud Network (VCN) for all your Computes, Databases, and other resources. </br><small><em>Tip:</em> Use Create VCN and related resources to quickly get you started. Choosing related resources creates three public subnets, internet gateway, and sets up IG route rule. In this tutorial we shall make the <strong>Virtual Cloud Network Only.</strong></small></br> {{img-url:/images/tutorials/vcneasy.png}} </br> ",
       "path": ""
     },
     {
@@ -11,7 +11,7 @@
       "path": "/networking/vcns"
     },
     {
-      "message": "Click <strong>\"Create Virtual Cloud Network\"</strong>. Choose the compartment you want the VCN in. Apply a Name. </br>Choosing \"CREATE VIRTUAL CLOUD NETWORK PLUS RELATED RESOURCES\" will create three subnets and internet gateway for you, so we won't choose this option now. </br> {{img-url:/images/tutorials/vcneasy.png}} </br> <small><em>Tip:</em> Make sure you create the VCN in another compartment other than root.</small>",
+      "message": "Click <strong>\"Create Virtual Cloud Network\"</strong>. Choose the compartment you want the VCN in. Apply a Name. <small><em>Tip:</em> Make sure you create the VCN in another compartment other than root.</small>",
       "path": ""
     },
     {
@@ -19,7 +19,7 @@
       "path": ""
     },
     {
-      "message": "Apply the proper contiguous IPv4 CIDR block for the VCN.</br> Oracle recommends using one of the private IP address ranges specified in RFC 1918 (10.0.0.0/8, 172.16/12, and 192.168/16). However, you can use a publicly routable range. Also, OCI has a range of /16 and /30 for the network. <small><em>Tip:</em> If you plan to peer this VCN with another VCN, the VCNs must not have overlapping CIDRs. Also network size <strong>cannot</strong> be changed after created.</small>",
+      "message": "Apply the proper contiguous IPv4 CIDR block for the VCN.</br>Oracle recommends using one of the private IP address ranges specified in RFC 1918 (10.0.0.0/8, 172.16/12, and 192.168/16). However, you can use a publicly routable range. Also, OCI has a range of /16 and /30 for the network. <small><em>Tip:</em> If you plan to peer this VCN with another VCN, the VCNs must not have overlapping CIDRs. Also network size <strong>cannot</strong> be changed after created.</small>",
       "path": ""
     },
     {
@@ -27,7 +27,7 @@
       "path": ""
     },
     {
-      "message": "Your Virtual Cloud Network is provisioned! Use the other tutorials to create additional resources within the VCN. <small><em>Tip:</em>Keep in mind you can create more Route Tables and Security List than the default and apply them to different subnets.</small>",
+      "message": "Your Virtual Cloud Network is provisioned! Use the other tutorials to create additional resources within the VCN. <small><em>Tip:</em> Keep in mind you can create more Route Tables and Security List than the default and apply them to different subnets.</small>",
       "path": ""
     }
   ]

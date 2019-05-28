@@ -15,7 +15,7 @@
       "path": ""
     },
     {
-      "message": "Choose the compartment for the Security List and Apply a name. Here allows you to add all the Ingress and Egress rules for the security list. </br> <small><em>Tip:</em>For more information on Ingress vs Egress and Stateless vs Stateful go <a href='https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm?Highlight=egress>here.</a>.</small> ",
+      "message": "Choose the compartment for the Security List and Apply a name. Here allows you to add all the Ingress and Egress rules for the security list. </br> <small><em>Tip:</em> For more information on Ingress vs Egress and Stateless vs Stateful go to<a href='https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm?Highlight=egress' target='_blank'>here.</a></small> ",
       "path": ""
     },
     {

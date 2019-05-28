@@ -3,7 +3,7 @@
     "description": "Walkthrough on how Federating with OCI works.", 
     "steps": [
       {
-        "message": "In this overview we will guide you how OCI can Federate with Identity Providers. Federation with supported IdP (Identity Providers) can use existing user accounts when logging onto OCI instead of creating a new user. </br><small><em>Tip:</em>OCI supports federation with Oracle Identity Cloud Service, and Microsoft Active Directory, Okta, and any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.</small>",
+        "message": "In this overview we will guide you how OCI can Federate with Identity Providers. Federation with supported IdP (Identity Providers) can use existing user accounts when logging onto OCI instead of creating a new user. </br><small><em>Tip:</em> OCI supports federation with Oracle Identity Cloud Service, and Microsoft Active Directory, Okta, and any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.</small>",
         "path": "/"
       },
       {
