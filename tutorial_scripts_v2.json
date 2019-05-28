@@ -109,7 +109,7 @@
         "type": "Category",
         "list": [
           {
-            "name": "0. Creating Compartment (optional)",
+            "name": "0. Creating Compartment (recommended)",
             "type": "Tutorial",
             "path": "/jump_server_load_balancer/create_compartment.json"
           },

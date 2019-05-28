@@ -3,7 +3,7 @@
     "description": "Walkthrough on creating compartments to logically separate, organize, and isolate your cloud resources.",
     "steps": [
       {
-        "message": "For the Jump Server tutorial we will create multiple resouces and show you how to create this common architecture in OCI. Please refer to the diagram for reference. In this tutorial we will guide you how to create a compartment for the Jump Server tutorial.</br>{{img-url:/images/tutorials/jump_server_load_balancer/jsnotionalarch.png}}",
+        "message": "For the Jump Server tutorial we will create multiple resouces and show you how to create this common architecture in OCI. Please refer to the diagram for reference. </br> This first tutorial we'll create a compartment.</br>{{img-url:/images/tutorials/jump_server_load_balancer/jsnotionalarch.png}}",
         "path": "/"
       },
       {
@@ -27,7 +27,7 @@
         "path": ""
       },
       {
-        "message": "You can proceed to next step <a class='next-step' href='/jump_server_load_balancer/vcn.json'>1.1 Create VCN</a></br> <em>Tip:</em> Remember to choose the new compartment when you create new resources.</small>",
+        "message": "You can proceed to next step <a class='next-step' href='/jump_server_load_balancer/vcn.json'>1.1 Create VCN</a></br> <small><em>Tip:</em> Remember to choose the new compartment when you create new resources.</small>",
         "path": "/"
       }
     ]

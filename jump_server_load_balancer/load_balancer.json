@@ -10,6 +10,9 @@
     },
     {
       "message": "After the <strong>Load Balancer</strong> is fully provisioned, we can find its IP address in the information section.{{img-url:/images/tutorials/jump_server_load_balancer/load_balancer_public_ip.png}}Copy and paste the IP address in your browser and visit the IP address, you will see the Load Balancer working and switching in between servers.{{img-url:/images/tutorials/jump_server_load_balancer/switch.png}}"
+    },
+    {
+      "message": "Congratulations you completed the Jump Server Tutorial. Youre resources in OCI should look like: </br> {{img-url:/images/tutorials/jump_server_load_balancer/jsnotionalarch.png}}"
     }
   ]
 }
