@@ -3,7 +3,7 @@
     "description": "Walkthrough on creating compartments to logically separate, organize, and isolate your cloud resources.",
     "steps": [
       {
-        "message": "In this tutorial we will guide you how to create a compartment for the Jump Server tutorial.",
+        "message": "For the Jump Server tutorial we will create multiple resouces and show you how to create this common architecture in OCI. Please refer to the diagram for reference. In this tutorial we will guide you how to create a compartment for the Jump Server tutorial.</br>{{img-url:/images/tutorials/jump_server_load_balancer/jsnotionalarch.png}}",
         "path": "/"
       },
       {
