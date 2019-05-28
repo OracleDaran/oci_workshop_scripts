@@ -1,0 +1,46 @@
+{
+    "name":"Creating Reserved IP",
+    "description": "Walkthrough on creating a Security List.", 
+    "steps": [
+      {
+        "message": "In this tutorial we'll show how to create a reserved public IP. Prerequisites required are a compute instance ",
+        "path": ""
+      },
+      {
+        "message": "Click the menu button on top left. Scroll down to <strong>\"Networking\"</strong> and click <strong>\"Public IPs\"</strong>. </br> {{img-url:/images/tutorials/vcnpublicipmenu.png}} ",
+        "path": "/networking/public-ips"
+      },
+      {
+        "message": "Click <strong>\"Create Reserved IP\"</strong> and apply a name and choose the right compartment. Click Create Reserved Public IP. </br> {{img-url:/images/tutorials/vcncreateIP.png}}",
+        "path": "/networking/public-ips"
+      },
+      {
+        "message": "Assign the reserved public IP to your compute instance. Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br> {{img-url:/images/tutorials/computemenu.png}}",
+        "path": ""
+      },
+      {
+        "message": "Click on the Instance Name you wish to add reserved public IP. Under <strong>\"Resources\"</strong> click on <strong>\"Attached VNICs\"</strong>.</br>{{img-url:/images/tutorials/vcnattachedvnicip.png}}",
+        "path": ""
+      },
+      {
+        "message": "One VNIC should be attached when the compute instance was created. Click on the VNIC name. Under <strong>\"Resources\"</strong> click <strong>\"IP Addresses\"</strong>.</br>{{img-url:/images/tutorials/vcnipaddresses.png}}",
+        "path": ""
+      },
+      {
+        "message": "One VNIC should be attached when the compute instance was created. Click on the VNIC name. Under <strong>\"Resources\"</strong> click <strong>\"IP Addresses\"</strong>.</br>{{img-url:/images/tutorials/vcnipaddresses.png}}",
+        "path": ""
+      },
+      {
+        "message": "In order to assign a reserved public IP you have to unassign the existing Public IP. Click on the menu on the public IP and click edit. Choose <strong>\"No Public IP\"</strong> to unassign the current public IP. Click on Update. </br>{{img-url:/images/tutorials/vcnunassignip.png}}",
+        "path": ""
+      },
+      {
+        "message": "Now we are able to assign the public IP. Click on edit again on IP, and choose <strong>\"Reserved Public IP\"</strong></br>{{img-url:/images/tutorials/vcnassignip.png}}",
+        "path": ""
+      },
+      {
+        "message": "Congrats! The instance should now have your reserved public IP. You can test it by SSH into the instance with the new IP!",
+        "path": ""
+      }
+    ]
+  }

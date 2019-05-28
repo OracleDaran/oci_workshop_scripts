@@ -9,7 +9,7 @@
       "message": "Select <strong>Subnets</strong> on the left in your VCN detail page.</br>{{img-url:/images/tutorials/jump_server_load_balancer/subnet_menu.png}}"
     },
     {
-      "message": "At here we are going to create three <strong>Subnets</strong>, which will accommodate the Jump Server, Backend Servers and Load Balancer Listener.</br>Click on <strong>Create Subnet</strong>.</br>{{img-url:/images/tutorials/jump_server_load_balancer/create_subnet_button.png}}"
+      "message": "At here we are going to create three <strong>Subnets</strong>, which will accommodate the Jump Server, Backend Servers, and Load Balancer Listener.</br>Click on <strong>Create Subnet</strong>.</br>{{img-url:/images/tutorials/jump_server_load_balancer/create_subnet_button.png}}"
     },
     {
       "message": "Let's create <strong>jump_server_subnet</strong> first.</br>Let's assign the CIDR block to <em>10.0.1.0/24</em>. Route table for this subnet is <em>public_subnet_route_table</em> since we want to access the jump server from Internet. This will also be a public subnet for public(Internet) access. Finally, the <strong>Security List</strong> will be <em>jump_server_security_list</em> that we created in the previous steps. We can leave all other fields as default. {{img-url:/images/tutorials/jump_server_load_balancer/jump_server_subnet_config_1.png}}{{img-url:/images/tutorials/jump_server_load_balancer/jump_server_subnet_config_2.png}}"

@@ -1,0 +1,34 @@
+{
+    "name":"Federation with OCI",
+    "description": "Walkthrough on how Federating with OCI works.", 
+    "steps": [
+      {
+        "message": "In this overview we will guide you how OCI can Federate with Identity Providers. Federation with supported IdP (Identity Providers) can use existing user accounts when logging onto OCI instead of creating a new user. </br><small><em>Tip:</em>OCI supports federation with Oracle Identity Cloud Service, and Microsoft Active Directory, Okta, and any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.</small>",
+        "path": "/"
+      },
+      {
+        "message": "First set up a relationship between the IdP and Oracle Cloud Infrastructure (known as federation trust). After sets up, any person in your company who goes to sign on is prompted with a single sign-on experience provided by the IdP. </br>The user signs in with the login/password that they've already set up with the IdP. The IdP authenticates the user, and then that user can access Oracle Cloud Infrastructure. </br> {{img-url:/images/tutorials/federation_signin.png}}",
+        "path": "/"
+      },
+      {
+        "message": "As part of setting up the relationship with the IdP, your administrator can map each IdP group to a defined IAM group. So your company can re-use the IdP group definitions when authorizing user access to OCI resources. </br>Here's a screenshot from the mapping process: </br>{{img-url:/images/tutorials/federation_group_mappings.png}}",
+        "path": "/"
+      },
+      {
+        "message": "Oracle Identity and Access Management (IDCS) should be default federated with your OCI account. So we'll show you how the current IDCS groups are mapped with the IAM OCI groups. </br> Click on the menu and scroll to <strong>\"Identity\"</strong> and <strong>\"Federation.\"</strong> </br> {{img-url:/images/tutorials/federation_menu.png}}",
+        "path": "/"
+      },
+      {
+        "message": "Here should show a list of the IdP federated with OCI. IDCS should be one option by default. Click on the IdP name. </br> This page allows you to edit description, add a IDCS users,add IDCS groups, and see mapped groups. Click on Groups Mapping. </br> <small><em>Tip:</em> To edit IDCS settings it requires the Client ID and Client Secret. Should be saved if configured before.</small>",
+        "path": "/"
+      },
+      {
+        "message": "If you click on edit mapping you can edit which groups in OCI are mapped to which groups in IDCS. For now we won't edit anything. </br> {{img-url:/images/tutorials/federation_group_mappings.png}}",
+        "path": "/"
+      },
+      {
+        "message": "If you wish to learn more about Federated groups and users click <a href='https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/federation.htm' target='_blank'>here.</a> Current documentation will help on how to set up Federation for different Identity Providers.",
+        "path": "/"
+      }
+    ]
+  }

@@ -15,11 +15,7 @@
       "path": ""
     },
     {
-      "message": "Click Create Policy. Add a <strong>\"Name\"</strong> and a <strong>\"Description\"</strong>. You can choose to have the policy expire or stay current. </br> Next we will actually add our statements to our policy.",
-      "path": ""
-    },
-    {
-      "message": "Each statement follows this basic syntax: </br> <code>Allow group <group_name> to <verb> <resource-type> in compartment <compartment_name></code>. </br> Policies only allow access, they cannot deny it. Some cases you may want to apply to a tenancy, heres an example: <code>Allow group <group_name> to <verb> <resource-type> in tenancy</code>. </br> {{img-url:/images/tutorials/idstatements.png }}",
+      "message": "Each statement follows this basic syntax: </br> <code>Allow group <group_name> to <verb> <resource-type> in compartment <compartment_name></code>. </br> Some cases you may want to apply to a tenancy, heres an example: <code>Allow group <group_name> to <verb> <resource-type> in tenancy</code>. <small><em>Tip:</em> Policies only allow access, they cannot deny it. </small> </br> {{img-url:/images/tutorials/idstatements.png }}",
       "path": ""
     },
     {

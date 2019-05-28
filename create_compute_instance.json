@@ -11,7 +11,7 @@
       "path": "/compute/instances"
     },
     {
-      "message": "Click Create Instance. Choose a name. For high availability there are 3 Availability Domains per region. Choose one where a subnet is available. Under \"Operating System\" choose your image, for this tutorial we will choose the default.",
+      "message": "Click Create Instance. Choose a name. For high availability there are 3 Availability Domains per region. Choose one where a subnet is available. Under \"Operating System\" choose your image, for this tutorial we will choose the default Oracle Linux 7.",
       "path": ""
     },
     {
@@ -23,7 +23,7 @@
       "path": ""
     },
     {
-      "message": "For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'> documentation</a>.",
+      "message": "For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>.",
       "path": ""
     }
   ]

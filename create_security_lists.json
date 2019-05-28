@@ -11,7 +11,7 @@
       "path": "/networking/vcns"
     },
     {
-      "message": "Choose the VCN you wish to add subnets to. Under Resources, Click Security Lists, then Create Security List. </br> {{img-url:/images/tutorials/vcnseclist.png}} ",
+      "message": "Choose the VCN you wish to add security list to. Under Resources, Click Security Lists, then Create Security List. </br> {{img-url:/images/tutorials/vcnseclist.png}} ",
       "path": ""
     },
     {
@@ -20,6 +20,18 @@
     },
     {
       "message": "Create the Security List. Now, when you create a subnet you can choose the custom Security Lists in the drop down menu instead of the default.",
+      "path": ""
+    },
+    {
+      "message": "To add security rules to the new security list click on the name. You can choose whether to add Ingress or Egress rules. Lets allow HTTP traffic into our VCN. </br><small><em>Tip:</em> Ingress rules are security rules that check inbound traffic to your VCN. </br> Egress rules check any outbound traffic from your VCN.</small>",
+      "path": ""
+    },
+    {
+      "message": "We'll add an Ingress rule to allow port 80 from any source IP. Click on Add Ingress rule. </br> Source Type choose CIDR. Source CIDR: 0.0.0.0/0. IP Protocol: TCP. Source Port Range: ALL. Destination Port Range: 80. </br> {{img-url:/images/tutorials/vcningress.png}}",
+      "path": ""
+    },
+    {
+      "message": "Now we set up security list properly! Add your proper Ingress and Egress rules for your VCN.",
       "path": ""
     }
   ]

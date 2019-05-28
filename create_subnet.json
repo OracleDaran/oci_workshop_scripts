@@ -19,7 +19,11 @@
       "path": ""
     },
     {
-      "message": "Choose whether you want a public or private subnet. </br>Leave DNS Resolution checked. DHCP options can be kept default. If you created a custom Security List choose that, otherwise choose the default Security Lists. </br> Create your new subnet! {{img-url:/images/tutorials/vcnpart2.png}} </br> <small><em>Tip:</em> Only public subnets will allow instances to have public IPs.</small>",
+      "message": "Choose whether you want a public or private subnet. </br>Leave DNS Resolution checked. DHCP options can be kept default. If you created a custom Security List choose that, otherwise choose the default Security Lists.",
+      "path": ""
+    },
+    {
+      "message": "Create your new subnet! </br> <small><em>Tip:</em> Only public subnets will allow instances to have public IPs.</small> </br>{{img-url:/images/tutorials/vcnpart2.png}} ",
       "path": ""
     }
   ]

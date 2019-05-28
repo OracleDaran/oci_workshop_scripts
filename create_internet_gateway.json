@@ -19,7 +19,7 @@
       "path": ""
     },
     {
-      "message": "In order to use an Internet Gateway you must add it to your Route Table. Under Resources, Click Route Table. Click the route table name. <small><em>Tip:</em> The default route table is created on initail VCN creation.</small>",
+      "message": "In order to use an Internet Gateway you must add it to your Route Table. Under Resources, Click Route Table. Click the route table name. <small><em>Tip:</em> The default route table is created on initial VCN creation.</small>",
       "path": ""
     },
     {

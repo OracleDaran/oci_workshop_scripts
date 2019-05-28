@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating users and groups in your tenancy.", 
   "steps": [
     {
-      "message": "In this tutorial we will guide you on how to create users and groups. You can also add users to groups. </br> A user's permissions to access services come from the groups which they belong to. The permissions given to a group is called a policy which we'll discuss later. <small><em>Tip:</em> Only users with user creation policies can create users.</small>",
+      "message": "In this tutorial we will guide you on how to create users and groups. As well as adding users to groups. </br> A user must belong to a group in order to apply policies that state which access to services they have. The permissions given to a group is called a policy which we'll discuss later. <small><em>Tip:</em> Only users with user creation policies can create users.</small>",
       "path": "/"
     },
     {
@@ -27,7 +27,7 @@
       "path": "/identity/groups"
     },
     {
-      "message": "Click Create Group button. Enter the <strong>\"Name\"</strong> and <strong>\"Description\"</strong> of the group. </br> Click Submit. <small><em>Tip:</em> You can create groups by business organization or roles such as admin vs read only users.</small> {{img-url:/images/tutorials/idgroups2.png}}",
+      "message": "Click Create Group button. Enter the <strong>\"Name\"</strong> and <strong>\"Description\"</strong> of the group. Click <strong>Submit.</strong> <small><em>Tip:</em> You can create groups by business organization or roles such as admin vs read only users.</small> {{img-url:/images/tutorials/idgroups2.png}}",
       "path": ""
     },
     {
@@ -35,7 +35,7 @@
       "path": ""
     },
     {
-      "message": "On the list add the users to this specific group. All users within the same group will now have the same privileges depending on the policy given to the group. </br> Congratulations finished the first tutorial on IAM! </br> <small><em>Tip:</em> Users require one-time passwords in order to access console and work with compartments. For this tutorial see User Credentials.</small>",
+      "message": "On the list add the users to this specific group. All users within the same group will have the same privileges depending on the policy given to the group. </br> Congratulations created first group in OCI! </br> <small><em>Tip:</em> Users require one-time passwords in order to access console and work with compartments. For this tutorial see User Credentials.</small>",
       "path": ""
     }
   ]

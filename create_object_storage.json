@@ -3,11 +3,11 @@
   "description": "Walkthrough on creating a Object Storage.", 
   "steps": [
     {
-      "message": "Another type of storage for OCI is object storage which offers both \"hot\" (frequently accessed) stoarge, and \"cold\" (archive) storage. </br> Object storage is ideal for having a bucket of data. For this tutorial we will go through hwo to create object storage. <small><em>Tip:</em> A namespace is top level container for buckers and objects. Buckets are a logical container that hold objects.</small>",
+      "message": "Another type of storage for OCI is object storage which offers both \"hot\" (frequently accessed) stoarge, and \"cold\" (archive) storage. </br> Object storage is ideal for having a bucket of data. For this tutorial we will go through how to create object storage. <small><em>Tip:</em> A namespace is top level container for buckers and objects and must be unique. Buckets are a logical container that hold objects.</small>",
       "path": ""
     },
     {
-      "message": "Click the menu button on top left. Scroll down to <strong>\"Object Storage\"</strong> and click <strong>\"Object Storage\"</strong>. </br>{{img-url:/images/tutorials/objmenu.png}} <small><em>Tip:</em> Archive tier is only for uploading objects. Object Storage also has life cycle policies.</small>",
+      "message": "Click the menu button on top left. Scroll down to <strong>\"Object Storage\"</strong> and click <strong>\"Object Storage\"</strong>. </br>{{img-url:/images/tutorials/objmenu.png}} <small><em>Tip:</em> Archive tier is only for uploading objects.</br> Object Storage also has life cycle policies.</small>",
       "path": ""
     },
     {
@@ -28,6 +28,10 @@
     },
     {
       "message":"Congratulations now you have objects on the object storage! </br>You are able to access them depending on the access to the object storage. For easy access you can set the visibility to public. </br> <small><em>Tip:</em> More information on visibility and Pre-Auth requests <a href='https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm'>here</a>.</small>",
+      "path":""
+    },
+    {
+      "message":"To download objects, click on the three dots on the object will have a menu. In the menu choose <strong>\"Download\"</strong> if you wish to re-download the file onto your local computer. </br>{{img-url: /images/tutorials/objdownload.png}}",
       "path":""
     }
   ]

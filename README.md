@@ -45,38 +45,44 @@ Content Outline:
 <hr>
 
 Tutorials:
-* Information and Access Management
-   * Create Compartments 
-   * Create Users
-   * Create Groups
-   * Add User to a Group
+* Identity and Access Management
+   * Create Compartments
+   * Create a User, and Groups
+   * User Credentials
    * Grant Policies to Groups
+   * Federation
 * Governance
-   * Tags
-   * Audit
-* Compute
-  * Create Compute
-  * Create Oracle Marketplace images
-  * Create Custom Compute
-* Storage 
-   * Block Volume Create, Attach, Clone, and Backup 
-   * Object Storage Create , Upload, and Download
-   * Create File storage 
+   * Manage Tags
+   * Audit*
 * Networking
    * Create VCN
-   * Create subnet 
    * Create security lists 
+   * Create route table=
+   * Create subnet
    * Create Internet Gateway
-   * Create route table
-   * Reserve IP
-* Databases
-* Advanced Networking
-   * Jump Server Load Balancer
+   * Reserve Public IP
+* Compute
+  * Create Compute
+  * Create Oracle Marketplace images*
+  * Create Custom Compute*
+* Block Storage 
+   * Create and Attach
+   * Clone and Backup*
+* Object Storage 
+   * Create, Upload, and Download
+   * Create Pre-Authenticated Requests*
+* File Storage*
+   * Create File Storage
+* Databases*
+* Advanced Networking*
    * NAT Gateway 
    * Service Gateway 
    * Local VCN peering
    * Regional VCN Peering
 * Advanced Topics
+   * Jump Server Load Balancer
+
+ *Soon to be created topics.
    
     
 

@@ -2,15 +2,16 @@
   "tutorials": [{
       "name": "Identity Access Management",
       "type": "Category",
-      "list": [{
-          "name": "Create a Users, and Groups",
-          "type": "Tutorial",
-          "path": "/create_users_and_groups.json"
-        },
+      "list": [
         {
-          "name": "Create Compartment",
+          "name": "Create Compartments",
           "type": "Tutorial",
           "path": "/create_compartment.json"
+        },
+        {
+          "name": "Create a User, and Groups",
+          "type": "Tutorial",
+          "path": "/create_users_and_groups.json"
         },
         {
           "name": "User Credentials",
@@ -21,8 +22,22 @@
           "name": "Grant Policies to Groups",
           "type": "Tutorial",
           "path": "/grant_policies_to_groups.json"
+        }, 
+        {
+          "name": "Federation",
+          "type": "Tutorial",
+          "path": "/federation.json"
         }
       ]
+    },
+    {
+      "name": "Governance",
+      "type": "Category",
+      "list": [{
+        "name": "Manage Tags",
+        "type": "Tutorial",
+        "path": "/manage_tags.json"
+      }]
     },
     {
       "name": "Networking",
@@ -33,19 +48,29 @@
           "path": "/create_vcn.json"
         },
         {
-          "name": "Create Subnet",
-          "type": "Tutorial",
-          "path": "/create_subnet.json"
-        },
-        {
           "name": "Create Security Lists",
           "type": "Tutorial",
           "path": "/create_security_lists.json"
         },
         {
+          "name": "Create Route Table",
+          "type": "Tutorial",
+          "path": "/create_route_table.json"
+        },
+        {
           "name": "Create Internet Gateway",
           "type": "Tutorial",
           "path": "/create_internet_gateway.json"
+        },
+        {
+          "name": "Create Subnet",
+          "type": "Tutorial",
+          "path": "/create_subnet.json"
+        },
+        {
+          "name": "Create Reserved Public IP",
+          "type": "Tutorial",
+          "path": "/create_reserved_IP.json"
         }
       ]
     },
@@ -59,15 +84,6 @@
       }]
     },
     {
-      "name": "Object Storage",
-      "type": "Category",
-      "list": [{
-        "name": "Create Object Storage",
-        "type": "Tutorial",
-        "path": "/create_object_storage.json"
-      }]
-    },
-    {
       "name": "Block Storage",
       "type": "Category",
       "list": [{
@@ -77,16 +93,16 @@
       }]
     },
     {
-      "name": "Governance",
+      "name": "Object Storage",
       "type": "Category",
       "list": [{
-        "name": "Manage Tags",
+        "name": "Create Object Storage",
         "type": "Tutorial",
-        "path": "/manage_tags.json"
+        "path": "/create_object_storage.json"
       }]
     },
     {
-      "name": "Advanced Networking",
+      "name": "Advanced Topics",
       "type": "Category",
       "list": [{
         "name": "Jump Server, Instances, and Load Balancer",

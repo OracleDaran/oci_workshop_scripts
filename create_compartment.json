@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating compartments to logically separate, organize, and isolate your cloud resources.",
   "steps": [
     {
-      "message": "In this tutorial we will guide you how to create a compartment.",
+      "message": "In this tutorial we will guide you how to create a compartment. A compartment is a logical container within your tenancy (account) used to seperate OCI Resources since every resource belongs to only one compartment. </br> <small><em>Tip:</em> Use compartments to organize and isolate your cloud resources. Some examples: by Project, by Organization, by Use, and/or By User. Policies also grant permission to access specific resources inside specific compartments.</small>",
       "path": "/"
     },
     {
@@ -11,7 +11,7 @@
       "path": "/"
     },
     {
-      "message": "With the side menu open. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Compartments\"</strong>. </br> {{img-url:/images/tutorials/idcompartment.png}}",
+      "message": "With the side menu open. Scroll down to <strong>\"Identity\"</strong> and click <strong>\"Compartments\"</strong>. </br> {{img-url:/images/tutorials/idcompartment.png}} </br> <small><em>Tip:</em> Recommended not to create resources in the <strong>root</strong> compartment</small>",
       "path": "/identity/compartments"
     },
     {
@@ -27,7 +27,7 @@
       "path": ""
     },
     {
-      "message": "<a href='/' target='_blank'>Click here to go back to <strong>HOME</strong></a> <small><em>Tip:</em> For more information about compartments visit the documentation <a href='https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm' target='_blank'>here.</a></small>",
+      "message": "You are ready to create resources in your new compartment. Remember to choose your compartment before creating resources. </br> <a href='/' target='_blank'>Click here to go back to <strong>HOME</strong></a> <small><em>Tip:</em> For more information about compartments visit the documentation <a href='https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm' target='_blank'>here.</a></small>",
       "path": "/"
     }
   ]

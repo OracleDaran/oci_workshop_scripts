@@ -3,7 +3,7 @@
     "description": "Walkthrough on creating compartments to logically separate, organize, and isolate your cloud resources.",
     "steps": [
       {
-        "message": "In this tutorial we will guide you how to create a compartment.",
+        "message": "In this tutorial we will guide you how to create a compartment for the Jump Server tutorial.",
         "path": "/"
       },
       {
@@ -19,7 +19,7 @@
         "path": ""
       },
       {
-        "message": "Enter the following required areas: </br> <strong>\"Name\"</strong> and <strong>\"Description\"</strong>. </br>Please input your information accordingly. <small><em>Tip:</em> <strong>TAGS</strong> are for managing purposes use, we will learn about them later.</small></br> ",
+        "message": "Enter the following required areas: </br> <strong>\"Name\"</strong> and <strong>\"Description\"</strong>. </br>Please input your information accordingly. <small><em>Tip:</em> <strong>TAGS</strong> are for managing purposes use, we will learn about them later.</small> ",
         "path": ""
       },
       {
@@ -27,12 +27,8 @@
         "path": ""
       },
       {
-        "message": "<a href='/' target='_blank'>Click here to go back to <strong>HOME</strong></a> <small><em>Tip:</em> For more information about compartments visit the documentation <a href='https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm' target='_blank'>here.</a></small>",
+        "message": "You can proceed to next step <a class='next-step' href='/jump_server_load_balancer/vcn.json'>1.1 Create VCN</a></br> <em>Tip:</em> Remember to choose the new compartment when you create new resources.</small>",
         "path": "/"
-      },
-      {
-          "message": "You can proceed to step <a class='next-step' href='/jump_server_load_balancer/vcn.json'>1.1 Create VCN",
-          "path": "/"
       }
     ]
   }

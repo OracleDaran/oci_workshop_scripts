@@ -15,7 +15,7 @@
       "path": "/identity/tag-namespaces"
     },
     {
-      "message": "Click Create Namespace Definition. Choose the compartment, namespace definition name, and description. Submit. <small><em>Tip:</em> A Tag Namespace is like a container for your tag keys. Consists of a name, and zero or more tag key definitions.</small> </br> {{img-url:/images/tutorials/idnamespace.png}}",
+      "message": "Click Create Namespace Definition. Choose the compartment, namespace definition name, and description. Click Submit. <small><em>Tip:</em> A Tag Namespace is like a container for your tag keys. Consists of a name, and zero or more tag key definitions.</small> </br> {{img-url:/images/tutorials/idnamespace.png}}",
       "path": ""
     },
     {
