@@ -1,0 +1,38 @@
+{
+    "name":"Creating a File Storage",
+    "description": "Walkthrough on creating a File Storage.", 
+    "steps": [
+      {
+        "message": "In this tutorial will go over steps on creating a File System Storage and having a compute instance use it. </br> We require you to have a VCN with a public subnet, and internet gateway already created. As well as have a compute instance you are able to ssh into created. </br> Please have the following already: {{img-url:/images/tutorials/filestart.png}}",
+        "path": ""
+      },
+      {
+        "message": "First we'll create an File Storage System. Click the menu button on top left. Scroll down to <strong>\"File Storage\"</strong> and click <strong>\"File Systems\"</strong>. </br> {{img-url:/images/tutorials/filemenu.png}}",
+        "path": ""
+      },
+      {
+        "message": "Click Create File System. Click on Edit Details to give it a memorable name. {{img-url:/images/tutorials/filecreate1.png}} </br>Under <strong>Mount Target Information</strong> edit information and give a mount target name. Select the VCN you want to use for the File System. {{img-url:/images/tutorials/filecreate2.png}}<small><em>Tip:</em> File Systems can connect to any compute in the VCN regardless of AD located.</small>",
+        "path": ""
+      },
+      {
+        "message": "File Systems require certain protocols and ports to be open. So in your security lists add the following TCP ports 2048-2050, 111, and UDP 2048, 111 for your VCN (example 10.0.0.0/16). {{img-url:/images/tutorials/filevcnsl1.png}}{{img-url:/images/tutorials/filevcnsl2.png}}",
+        "path": ""
+      },
+      {
+        "message": "On Oracle Console you can find the mount targets for your File System. Click on your file system then click on the Export Path created. {{img-url:/images/tutorials/filemount1.png}} Click on Mount Commands and you'll use these to mount on your compute instance. {{img-url:/images/tutorials/filemount2.png}} {{img-url:/images/tutorials/filemount3.png}}",
+        "path": ""
+      },
+      {
+        "message": "Next ssh into your instance you wish to mount the file system to. Example for Oracle Linux: <code>sudo yum install nfs-utils</br>sudo mkdir -p /mnt/TestFS</br>sudo mount 10.x.x.x:/TestFS /mnt/TestFS</code>",
+        "path": ""
+      },
+      {
+        "message": "Congrats! You can now use your your file system storage. To see if it worked just use the command <code> df -h </code> to list our all the Filesystem and Mount points.",
+        "path": ""
+      },
+      {
+        "message": "For more documentation on File Storage <a target='_blank' href='https://docs.cloud.oracle.com/iaas/Content/File/Concepts/filestorageoverview.htm'>click here.</a>",
+        "path": ""
+      }
+    ]
+  }

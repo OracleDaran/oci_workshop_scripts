@@ -1,0 +1,42 @@
+{
+    "name":"Creating a Custom Compute Instance",
+    "description": "Walkthrough on creating a Custom Compute Instance.", 
+    "steps": [
+      {
+        "message": "In this tutorial will go over steps on creating a custom compute instance. If you need a custom OS be imported to OCI you can create a custom image. <small><strong>Note:</strong> A VCN, and compartment must already be created. Know how to create a compute image.</small>",
+        "path": ""
+      },
+      {
+        "message": "First your virtual image has to be imported to OCI. Import the image to Object Storage using the console or APIs. Click the menu button on top left. Scroll down to <strong>\"Object Storage\"</strong>. </br> Create a Bucket if one has not been created. {{img-url:/images/tutorials/objstoragecreate.png}}",
+        "path": "/compute/instances"
+      },
+      {
+        "message": "Upload your image to your new bucket. Click on <strong>\"Objects\"</strong> and <strong>\"Upload Objects\"</strong>. Upload your image.  {{img-url:/images/tutorials/objstoragecreate2.png}} </br> <small><em>Tip:</em> For linux images should be VMDK or QCOW2 file formats. More info <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/References/bringyourownimage.htm' target='_blank'>here</a> </small>",
+        "path": ""
+      },
+      {
+        "message": "Save your URI for the object to create a custom image. Click on the options for the object then click on <strong>\"View Object Details\"</strong>. Save the URI/URL path on a notepad for later. </br> {{img-url:/images/tutorials/objstoragecreate3.png}} </br> <small><em>Tip:</em> For custom images across regions use Pre-Authenticated Request URI instead. Go to Object Storage -> Pre-Authenticated Request tutorial for more info.</small>",
+        "path": ""
+      },
+      {
+        "message": "Next you'll create a custom image which will allow you to create compute images to deploy. Click on the menu on the top left and go to Compute and Custom Images </br> {{img-url:/images/tutorials/customcompute1.png}}",
+        "path": ""
+      },
+      {
+        "message": "Click on Import Image. Apply a Name, Operating System, and the URI from the previous step. Based on the type of image choose the Image Type and Launch Mode. {{img-url:/images/tutorials/customcompute2.png}} </br> <small><em>Tip:</em> More info on configuration go <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/imageimportexport.htm#ImportinganImage' target='_blank'>here</a> </small>",
+        "path": ""
+      },
+      {
+        "message": "Next we'll deploy a compute using the custom image. Go to Compute and Create Instance. Click on <strong>\"Change Image Source\"</strong>. {{img-url:/images/tutorials/customcompute3.png}} </br> <small><em>Tip:</em> You can also choose to create a compute from the custom compute menu after it is created. </small>",
+        "path": ""
+      },
+      {
+        "message": "Click on custom images tab and you should see your custom image from the previous step. Fill out the rest and deploy your compute image. {{img-url:/images/tutorials/customcompute4.png}} </br> <small><em>Tip:</em> You can create multiple compute virtual machines using the same image.</small>",
+        "path": ""
+      },
+      {
+        "message": "Congratulation, you imported your custom image onto OCI. For more information on custom computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/managingcustomimages.htm' target='_blank'>documentation</a>",
+        "path": ""
+      }
+    ]
+  }

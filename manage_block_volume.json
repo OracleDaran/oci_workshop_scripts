@@ -1,0 +1,43 @@
+{
+    "name":"Backup and Clone Block Volumes",
+    "description": "Walkthrough on managing a Block Volume.", 
+    "steps": [
+      {
+        "message": "Block Volumes allow you to create backups and clones to help manage your storage better. Use Backup to create point in time backup of your data on a block volume. Requires you to restore the backup to use them at a later time. </br> You can choose between manual backup or policy based. <small><em>Note:</em> Backups are encrypted and stored in Oracle Object Storage. </small>",
+        "path": ""
+      },
+      {
+        "message": "Click the menu button on top left. Scroll down to <strong>\"Block Storage\"</strong> and click <strong>\"Block Volumes\"</strong>.",
+        "path": "/block-storage/volumes"
+      },
+      {
+        "message": "Here will list the block volumes created previously. Click on the block volume you wish to backup. </br> Click on <strong>\"Block Volume Backups\"</strong> then Create Block Volume Backup. </br> {{img-url:/images/tutorials/bvbackup.png}}",
+        "path": ""
+      },
+      {
+        "message": "Give the backup a user friendly name. For backup type you can choose between full backup or incremental backups. </br> Click on <strong>\"Create Block Volume Backup\"</strong> to finish creating a backup. </br>{{img-url:/images/tutorials/bvbackup2.png}}",
+        "path": ""
+      },
+      {
+        "message": "You can also assign a policy for backups which will backup block volumes at different frequency and retention period. Monthly, Weekly, and Daily (Bronze, Silver, Gold). </br> Go back to <strong>\"Block Volumes\"</strong> and select the menu for the specific block volume. </br><small><em>Tip:</em> For more infromation on Policy Based Backups, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm'>here</a>.</small> {{img-url:/images/tutorials/bvbackup3.png}}",
+        "path": "/compute/instances"
+      },
+      {
+        "message": "Click on Assign Backup Policy. Here you can choose on the policy you want. {{img-url:/images/tutorials/bvbackup4.png}}",
+        "path": ""
+      },
+      {
+        "message": "Finally you can also create clones for Block Volumes. </br><small><em>Tip:</em> For more infromation on Clone vs Backups go <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumebackups.htm#DifferencesBetweenBlockVolumeBackupsandClones'>here</a>.</small>",
+        "path": ""
+      },
+      {
+        "message": "To clone a block volume click on the block volume you wish to clone. Choose Block Volume Clone then click on Create Clone. Enter the details you wish for the Clone Volume. {{img-url:/images/tutorials/bvbackup5.png}} </br> {{img-url:/images/tutorials/bvbackup6.png}}",
+        "path": ""
+      },
+      {
+        "message": "Congrats! You completed hoe to create a backup and clone of a block volume. This should help with managing your block volumes on OCI!",
+        "path": ""
+      }
+    ]
+  }
+    

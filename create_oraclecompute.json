@@ -1,0 +1,30 @@
+{
+    "name":"Creating a Oracle Compute Image",
+    "description": "Walkthrough on creating a Oracle Compute.", 
+    "steps": [
+      {
+        "message": "After learning about creating compute instances there is one type where you can use Oracle Images from marketplace that is integrated within the console. You can create Oracle Images such as Oracle DB or Oracle Enterprise Manager etc. <small><strong>Note:</strong> A VCN, and compartment must already be created.</small>",
+        "path": ""
+      },
+      {
+        "message": "Click the menu button on top left. Scroll down to <strong>\"Compute\"</strong> and click <strong>\"Instances\"</strong>. </br> {{img-url:/images/tutorials/computemenu.png}}",
+        "path": "/compute/instances"
+      },
+      {
+        "message": "Click Create Instance. Choose a name. Choose a Availability Domain. Choose one where a subnet is available (AD or regional subnet). Under \"Operating System\" click the Oracle Images. You can choose from Pre-built Oracle enterprise images and solutions for OCI. {{img-url:/images/tutorials/customeoracle.png}}<small><em>Tip:</em> You can also choose the Partner Images tab to use third-party images from Oracle partners.</small> ",
+        "path": ""
+      },
+      {
+        "message": "For now we'll create an Oracle Database on Compute (not PaaS). Choose Oracle Database, click on the arrow to choose the image version. {{img-url:/images/tutorials/customeoracledb.png}}",
+        "path": ""
+      },
+      {
+        "message": "Select Virtual Machine and choose an available instance shape.  Paste or drag your public key. Choose the right VCN and subnet. Click Create Instance. <small><em>Tips:</em> For Mac/Linux you can easily copy your keys using \"pbcopy < ~/.ssh/id_rsa.pub\" command. </small>",
+        "path": ""
+      },
+      {
+        "message": "Congratulation, you created your Oracle DB using Oracle Marketplace Image. For more information on computes go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm' target='_blank'>documentation</a>",
+        "path": ""
+      }
+    ]
+  }

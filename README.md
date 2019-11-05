@@ -53,7 +53,6 @@ Tutorials:
    * Federation
 * Governance
    * Manage Tags
-   * Audit*
 * Networking
    * Create VCN
    * Create Security Lists 
@@ -63,22 +62,25 @@ Tutorials:
    * Reserve Public IP
 * Compute
   * Create Compute
-  * Create Oracle Marketplace Images*
-  * Create Custom Compute*
+  * Create Oracle Marketplace Images
+  * Create Custom Compute
 * Block Storage 
    * Create and Attach
-   * Clone and Backup*
+   * Clone and Backup
 * Object Storage 
    * Create, Upload, and Download
    * Create Pre-Authenticated Requests*
-* File Storage*
+* File Storage
    * Create File Storage
-* Databases*
-* Advanced Networking*
+* Databases
+   * Create a ADB database* 
+   * Browse ADB features*
+   * Create a Database* 
+* Advanced Networking
    * NAT Gateway 
-   * Service Gateway 
+   * Service Gateway* 
    * Local VCN peering
-   * Regional VCN Peering
+   * Regional VCN Peering*
 * Advanced Topics
    * Jump Server Load Balancer
 

@@ -3,7 +3,7 @@
     "description": "Walkthrough on creating a Route Table.", 
     "steps": [
       {
-        "message": "VCNs are created with one default route table, and more can be created to manage different routes for each subnet. </br> In this tutorial we will show you how to create a Route Table.",
+        "message": "Virtual Route tables for your VCN help with routing traffic from subnet to destination outside VCN using gateways or specially configured instances. </br></br>VCNs are created with one default route table, and more can be created to manage different routes for each subnet. </br> In this tutorial we will show you how to create a Route Table.",
         "path": ""
       },
       {

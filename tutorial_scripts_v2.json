@@ -81,7 +81,18 @@
         "name": "Create Compute Instance",
         "type": "Tutorial",
         "path": "/create_compute_instance.json"
-      }]
+      },
+      {
+        "name": "Create Oracle Compute Image",
+        "type": "Tutorial",
+        "path": "/create_oraclecompute.json"
+      },
+      {
+        "name": "Create Custom Image",
+        "type": "Tutorial",
+        "path": "/create_custom_image.json"
+      }
+    ]
     },
     {
       "name": "Block Storage",
@@ -90,6 +101,20 @@
         "name": "Create and Attach Block Volume",
         "type": "Tutorial",
         "path": "/create_block_volume.json"
+      },
+      {
+        "name": "Backup and Clone Block Volume",
+        "type": "Tutorial",
+        "path": "/manage_block_volume.json"
+      }]
+    },
+    {
+      "name": "File Storage",
+      "type": "Category",
+      "list": [{
+        "name": "Create a File Storage",
+        "type": "Tutorial",
+        "path": "/create_filestorage.json"
       }]
     },
     {
@@ -99,6 +124,20 @@
         "name": "Create Object Storage",
         "type": "Tutorial",
         "path": "/create_object_storage.json"
+      }]
+    },
+    {
+      "name": "Advanced Networking",
+      "type": "Category",
+      "list": [{
+        "name": "Create NAT Gateway",
+        "type": "Tutorial",
+        "path": "/create_nat_gateway.json"
+      },
+      {
+        "name": "Create Local Peering",
+        "type": "Tutorial",
+        "path": "/create_local_peering.json"
       }]
     },
     {

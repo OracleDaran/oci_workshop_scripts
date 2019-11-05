@@ -1,0 +1,38 @@
+{
+    "name":"Creating NAT Gateway",
+    "description": "Walkthrough on creating a NAT Gateway.", 
+    "steps": [
+      {
+        "message": "You can add a Network Address Translation (NAT) to your VCN. NAT gateway gives cloud resources without public IP addresses to access the internet without exposing resources to incoming connections.</br></br>In this tutorial we'll showcase how to create a NAT gateway.",
+        "path": ""
+      },
+      {
+        "message": "You should have a VCN already created with a default route table and default security list. Created a public subnet, private subnet, and internet gateway. Refer to previous tutorials on how to create those resources. Should look like this diagram: </br> {{img-url:/images/tutorials/network_nat_gateway1.png}}",
+        "path": "/networking/vcns"
+      },
+      {
+        "message": "Provision two linux compute instances in the seperate subnets one in the private subnet and one in public subnet. </br> {{img-url:/images/tutorials/network_nat_gateway2.png}}",
+        "path": ""
+      },
+      {
+        "message": "Next we'll create a NAT gateway so your private compute instance can communicate with the internet. Click on the VCN name and under resources click on NAT gateway. Click on Create NAT gateway. {{img-url:/images/tutorials/network_nat_gateway3.png}}</br></br> Apply a name for the gateway and click create. {{img-url:/images/tutorials/network_nat_gateway4.png}}",
+        "path": ""
+      },
+      {
+        "message": "You have to add the following route rule for you VCN to use the NAT gateway. Go to your route table and Add Route Rule. Add the following: {{img-url:/images/tutorials/network_nat_gateway5.png}}",
+        "path": ""
+      },
+      {
+        "message": "In order to test the instance has internet connection through NAT gateway you must SSH into the instance and test a network functionality. </br> You're going to ssh into the public instance then the private instance. <strong>You must have the private key on the public instance in order to ssh from public to private instance</strong> </br> Tranfer the private key to the public instance using scp. Using Linux/Mac: <code>scp [private_key] opc@[public_ip]:/home/opc/.ssh</code> </br> Then SSH into your public instance using your public IP. Linux/Mac: <code>ssh -i [private ssh key path] opc@[public ip] </code>",
+        "path": ""
+      },
+      {
+        "message": "Now SSH into your private instance using the private ssh key on the public instance. <code> ssh -i [private key] opc@[private_ip] </code> You should be in the private instance on the private subnet.",
+        "path": ""
+      },
+      {
+        "message": "Lastly test the internet connection using ping google.com, traceroute, or an update on the machine such as 'sudo yum update' for Oracle Linux. </br> Congratulations, you created and used a NAT gateway.</br> Your final arcitecture should look like: {{img-url:/images/tutorials/network_nat_gateway6.png}}",
+        "path": ""
+      }
+    ]
+  }

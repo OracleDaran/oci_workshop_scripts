@@ -27,7 +27,7 @@
       "path": ""
     },
     {
-      "message": "Now your resources will have access to the internet and you can SSH and connect to your compute instances!",
+      "message": "Now your resources will have access to the internet and you can SSH and connect to your compute instances! <small><em>Tip:</em> Make sure you have your security list configured to allow communication between instance and public internet. Suggest allowing Egress Rule Destination CIDR 0.0.0.0/0 and All protocols so instances can communicate out of the VCN. Allow Ingress Rules as needed. Be cautious to Allow All Protocols in Ingress rules!!.</small>",
       "path": ""
     }
   ]

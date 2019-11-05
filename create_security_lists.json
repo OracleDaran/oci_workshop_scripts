@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating a Security List.", 
   "steps": [
     {
-      "message": "VCNs are created with one default security lists, and more can be created to manage different security list for each subnet. </br> In this tutorial we will show you how to create a Security List.",
+      "message": "A security list is a virtual firewall rules for your VCN (outside of the instance firewall rules). Helps to specify which traffic is allowed in and out of your VCNs. </br></br>VCNs are created with one default security lists, and more can be created to manage different security list for each subnet. </br> In this tutorial we will show you how to create a Security List.",
       "path": ""
     },
     {
@@ -15,7 +15,7 @@
       "path": ""
     },
     {
-      "message": "Choose the compartment for the Security List and Apply a name. Here allows you to add all the Ingress and Egress rules for the security list. </br> <small><em>Tip:</em> For more information on Ingress vs Egress and Stateless vs Stateful go to<a href='https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm?Highlight=egress' target='_blank'>here.</a></small> ",
+      "message": "Choose the compartment for the Security List and Apply a name. Here allows you to add all the Ingress and Egress rules for the security list. </br> <small><em>Tip:</em> Ingress rules are traffic incomming to your Oracle VCN, and Egress rules are managing traffic outgoing your VCNs. </br> For more information on Ingress vs Egress and Stateless vs Stateful go to <a href='https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm?Highlight=egress' target='_blank'>here.</a></small> ",
       "path": ""
     },
     {

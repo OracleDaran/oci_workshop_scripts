@@ -1,0 +1,50 @@
+{
+    "name":"Creating Local Peering",
+    "description": "Walkthrough on creating a Local Peering VCNs.", 
+    "steps": [
+      {
+        "message": "You can extend your VCN by connecting two VCNs in the same region together to communicate with Private IP addresses without routing traffic ovver the internet. Can be in the same or different Oracle Tenancy. <small><em>Tip:</em> To peer VCN require non-overlapping CIDRs in the same region. For peering within different regions you should use Regional Peering.</small>",
+        "path": ""
+      },
+      {
+        "message": "In the following tutorial we'll create the following architecture to peer two local VCNs. {{img-url:/images/tutorials/localpeerarch.png}}",
+        "path": ""
+      },
+      {
+        "message": "We'll create the first VCN. Create a VCN with the CIDR block of 192.168.0.0/16. </br>Keep the default <strong>Route Table</strong> and <strong>Security List.</strong> </br> Next create a <strong>Public Subnet</strong> with the CIDR 192.168.0.0/24. </br> Create an <strong>Internet Gateway</strong> and add the following route rule to the VCN (change the internet gateway target with yours) {{img-url:/images/tutorials/vcnigcreation.png}}",
+        "path": ""
+      },
+      {
+        "message": "In order for two local VCN to communicate with eachother we require a Local Peering Gateway. </br></br>Choose the VCN we just created, under resources click on Local Peering Gateways. </br> Click Create Local Peering Gateway and give it a friendly name. {{img-url:/images/tutorials/localpeerLPG.png}}",
+        "path": ""
+      },
+      {
+        "message": "Next we'll create the second VCN. Choose VCN only, apply the following CIDR block: 10.0.0.0/16. Use the default <strong>Route Table</strong> and <strong>Security List.</strong>. </br> Create a <strong>Private Subnet</strong> with CIDR 10.0.0.0/24. Since we have a private subnet we won't create an internet gateway for this VCN.",
+        "path": ""
+      },
+      {
+        "message": "The second VCN also needs a LPG so create one using a unique name. You'll notice the peering status is shown as \"Not Connected\". </br> To establish the connection click on the three dot menu icons and Establish Peering Connection. {{img-url:/images/tutorials/localpeernotconn.png}} </br> You can browse for the LPG of VCN1 under the right compartment and VCN <strong>OR</strong> use the OCID from the LPG of the other VCN you wish to connect to. You require the OCID if the LPG is on a different tenancy. {{img-url:/images/tutorials/localpeerocid.png}} ",
+        "path": ""
+      },
+      {
+        "message": "Now both LPGs should be peered and the Peering Status should change to <strong>\"Peered - Connected to a peer\".</strong> </br> Still both VCNs won't be able to communicate with each other without updating the route rules and security lists. {{img-url:/images/tutorials/localpeered.png}}",
+        "path": ""
+      },
+      {
+        "message": "For the first VCN (192.168.0.0/16) in the route table add the following rule. {{img-url:/images/tutorials/localpeerrt1.png}} </br> For security lists edit security rules and add the following for Ingress Rules allow all protocols from the second VCN only. {{img-url:/images/tutorials/localpeersl1.png}}",
+        "path": ""
+      },
+      {
+        "message": "For the second VCN (10.0.0.0/16) in the route table add the following rule. {{img-url:/images/tutorials/localpeerrt2.png}} For security lists edit security rules and add the following for Ingress Rules allow all protocols from the second VCN only. </br> {{img-url:/images/tutorials/localpeersl2.png}} Add the same rule to Egress as well.",
+        "path": ""
+      },
+      {
+        "message": "Now both VCNs should be peered and able to connect. In order to test though <strong>create a compute instance</strong> on each VCN and subnet and SSH into the public instance, then ping or ssh into the private instance.",
+        "path": ""
+      },
+      {
+        "message": "You should end up with the following architecture. Congrats you peered two VCNs! {{img-url:/images/tutorials/localpeerarch.png}}",
+        "path": ""
+      }
+    ]
+  }
