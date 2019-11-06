@@ -1,0 +1,42 @@
+{
+    "name":"Creating Service Gateway",
+    "description": "Walkthrough on creating a Service Gateway.", 
+    "steps": [
+      {
+        "message": "You can add a Service Gateway to your VCN. Service gateway gives cloud resources in a VCN private access to your Oracle Services without going over the public internet.</br></br>In this tutorial we'll showcase how to create a Service Gateway. <small><em>Tip:</em> Some Oracle Resources include Oracle Analytics Cloud, Oracle Autonomous Database, and Object Storage. Keep in mind the services should be in the same region as your VCN.</small>",
+        "path": ""
+      },
+      {
+        "message": "You should have a VCN already created with a default route table and default security list. Created subnets (public or private). Refer to previous tutorials on how to create those resources.",
+        "path": "/networking/vcns"
+      },
+      {
+        "message": "Next we'll create a service gateway so your instances can communicate privately to oracle services. Click on the VCN name and under resources click on Service gateway. Click on <strong>\"Create Service gateway\"</strong> {{img-url:/images/tutorials/network_service_gateway1.png}}</br></br> {{img-url:/images/tutorials/network_service_gateway2.png}}",
+        "path": ""
+      },
+      {
+        "message": "Apply a name for the gateway and choose the correct compartment (same as VCN usually). Under services select which Oracle Service needed. Each label will allow communication to specific Oracle CIDR blocks for Oracle Services. Click on Create. </br> <small><em>Tip:</em> A common usecase is to use Object Storage with private Database instances on OCI for Database backups. If only Object Storage is required choose Object Storage as a Service, otherwise it is recommended to use all services.</small> {{img-url:/images/tutorials/network_service_gateway3.png}}", 
+        "path": ""
+      },
+      {
+        "message": "Once a Service Gateway is created it corresponds to a specific VCN. Next we have to update route tables and security lists to allow instances to access Oracle Services. </br> Click on Route Tables and select the route table for the specified subnet. We can use the default.</br> Click on <strong>\"Add Route Rules\"</strong> {{img-url:/images/tutorials/network_service_gateway4.png}}", 
+        "path": ""
+      },
+      {
+        "message": "Add a new Route rule: </br> For target type select Service Gateway. Destination service should be the same as the previous step when creating the service gateway. Select your service gateway created before under the target gateway. </br> Add the new Route rule. {{img-url:/images/tutorials/network_service_gateway5.png}}",
+        "path": ""
+      },
+      {
+        "message": "Finally we'll edit the security lists to allow communication. Click on Security Lists and choose the security list. We'll use the default. Make sure to have Egress and Ingress rules open for the Oracle Services CIDR block. If an Egress rule allows 0.0.0.0/0 TCP/All then it should allow traffic thru the service gateway. </br>The following is an example of adding a rule specifically for service gateway. {{img-url:/images/tutorials/network_service_gateway6.png}}",
+        "path": ""
+      },
+      {
+        "message": "You can also restrict service gateway access using IAM policies. You can allow specific resources in a VCN to access object storage or a specific CIDR block. More information <a href='https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/servicegateway.htm' target='_blank'>here.</a>",
+        "path": ""
+      },
+      {
+        "message": "Congrats! You created a service gateway to allow instances in a VCN private access to public Oracle Services. </br> One way to test the connection you can create a database instance and have instantiate backup. The backup should store in object storage and will use service gateway to allow communication between the two.",
+        "path": ""
+      }
+    ]
+  }

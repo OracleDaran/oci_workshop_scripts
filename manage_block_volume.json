@@ -19,7 +19,7 @@
         "path": ""
       },
       {
-        "message": "You can also assign a policy for backups which will backup block volumes at different frequency and retention period. Monthly, Weekly, and Daily (Bronze, Silver, Gold). </br> Go back to <strong>\"Block Volumes\"</strong> and select the menu for the specific block volume. </br><small><em>Tip:</em> For more infromation on Policy Based Backups, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm'>here</a>.</small> {{img-url:/images/tutorials/bvbackup3.png}}",
+        "message": "You can also assign a policy for backups which will backup block volumes at different frequency and retention period. Monthly, Weekly, and Daily (Bronze, Silver, Gold). </br> Go back to <strong>\"Block Volumes\"</strong> and select the menu for the specific block volume. </br><small><em>Tip:</em> For more information on Policy Based Backups, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm'>here</a>.</small> {{img-url:/images/tutorials/bvbackup3.png}}",
         "path": "/compute/instances"
       },
       {
@@ -27,7 +27,7 @@
         "path": ""
       },
       {
-        "message": "Finally you can also create clones for Block Volumes. </br><small><em>Tip:</em> For more infromation on Clone vs Backups go <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumebackups.htm#DifferencesBetweenBlockVolumeBackupsandClones'>here</a>.</small>",
+        "message": "Finally you can also create clones for Block Volumes. </br><small><em>Tip:</em> For more information on Clone vs Backups go <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumebackups.htm#DifferencesBetweenBlockVolumeBackupsandClones'>here</a>.</small>",
         "path": ""
       },
       {

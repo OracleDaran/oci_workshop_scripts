@@ -1,0 +1,47 @@
+{
+    "name":"Creating a Pre-Auth Request",
+    "description": "Walkthrough on creating a Pre-Authenticated Request.", 
+    "steps": [
+      {
+        "message": "Object storage offers secure way to share buckets and objects. Pre-Authenticated Requests allow users to access Object Storage without own credentials or API keys. <small><em>Tip:</em> Bucket Pre-Authenticated requests can be used to create objects in the bucket. With this request, you cannot read from or list the objects in the bucket.</small>",
+        "path": ""
+      },
+      {
+        "message": "Click the menu button on top left. Scroll down to <strong>\"Object Storage\"</strong> and click <strong>\"Object Storage\"</strong>. </br>{{img-url:/images/tutorials/objmenu.png}}",
+        "path": ""
+      },
+      {
+        "message":"Click on the menu for the bucket to create a Pre-Authenticated requests. This will give you the option to create a Pre-Auth for the bucket itself. </br> <small><em>Tip:</em>If you add a object name you can do a Pre-Authenticated request for a specific object.</small> {{img-url:/images/tutorials/objpreauth.png}} ",
+        "path":""
+      },
+      {
+        "message":"Click on the <strong>\"Create Pre-Authenticated Requests\"</strong> and Apply a name that will show in the Oracle Console. For Bucket requests, select the bucket as a target. {{img-url:/images/tutorials/objpreauth2.png}} <small><em>Tip:</em> You can have Pre-Authenticated Requests to expire after a certain date.</small>",
+        "path":""
+      },
+      {
+        "message":"A window will show displaying the Pre-Auth URI. Copy and save this for your records and use! </br> {{img-url:/images/tutorials/objpreauth3.png}}",
+        "path":""
+      },
+      {
+        "message":"To create secure access to a specific object in a bucket, you can also create Pre-Auth to specific object. </br> When viewing the Bucket information scroll to find your specific object under Objects menu. Click on the menu options for the object then click on Create Pre-Authenticated request. {{img-url:/images/tutorials/objpreauth4.png}}",
+        "path":""
+      },
+      {
+        "message":"The object name should be auto filled. You can give the Pre-Auth a friendly name. </br> For access type you can specify type from Read, Write, or both Read & Write. As well as expiration date. </br> Click on Create. {{img-url:/images/tutorials/objpreauth4.png}}",
+        "path":""
+      },
+      {
+        "message":"A window will show displaying the Pre-Auth URI. Copy and save this for your records and use as well. This link will allow users direct access to specific objects only. </br> {{img-url:/images/tutorials/objpreauth3.png}}",
+        "path":""
+      },
+      {
+        "message":"To view Pre-Authenticated Requests previously created. In the bucket information click on Pre-Authenticated requests. </br> Here you can manage the requests and view information. {{img-url:/images/tutorials/objpreauth5.png}}",
+        "path":""
+      },
+      {
+        "message":"Congrats! Now you know how to create secure access to object storage buckets and objects. </br> Pre-Authenticated request will work while the user who created the requests has access or till the expiration date! </br> For more information on Pre-Authenticated request go to the <a href='https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/usingpreauthenticatedrequests.htm' target='_blank'>documentation</a>",
+        "path":""
+      }
+    ]
+  }
+    

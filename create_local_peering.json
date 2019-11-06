@@ -3,7 +3,7 @@
     "description": "Walkthrough on creating a Local Peering VCNs.", 
     "steps": [
       {
-        "message": "You can extend your VCN by connecting two VCNs in the same region together to communicate with Private IP addresses without routing traffic ovver the internet. Can be in the same or different Oracle Tenancy. <small><em>Tip:</em> To peer VCN require non-overlapping CIDRs in the same region. For peering within different regions you should use Regional Peering.</small>",
+        "message": "You can extend your VCN by connecting two VCNs in the same region together to communicate with Private IP addresses without routing traffic over the internet. Can be in the same or different Oracle Tenancy. <small><em>Tip:</em> To peer VCN require non-overlapping CIDRs in the same region. For peering within different regions you should use Regional Peering.</small>",
         "path": ""
       },
       {
@@ -15,7 +15,7 @@
         "path": ""
       },
       {
-        "message": "In order for two local VCN to communicate with eachother we require a Local Peering Gateway. </br></br>Choose the VCN we just created, under resources click on Local Peering Gateways. </br> Click Create Local Peering Gateway and give it a friendly name. {{img-url:/images/tutorials/localpeerLPG.png}}",
+        "message": "In order for two local VCN to communicate with each other we require a Local Peering Gateway. </br></br>Choose the VCN we just created, under resources click on Local Peering Gateways. </br> Click Create Local Peering Gateway and give it a friendly name. {{img-url:/images/tutorials/localpeerLPG.png}}",
         "path": ""
       },
       {

@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating a Object Storage.", 
   "steps": [
     {
-      "message": "Another type of storage for OCI is object storage which offers both \"hot\" (frequently accessed) storage, and \"cold\" (archive) storage. </br> Object storage is ideal for having a bucket of data. For this tutorial we will go through how to create object storage. <small><em>Tip:</em> A namespace is top level container for buckers and objects and must be unique. Buckets are a logical container that hold objects.</small>",
+      "message": "Another type of storage for OCI is object storage which offers both \"hot\" (frequently accessed) storage, and \"cold\" (archive) storage. </br> Object storage is ideal for having a bucket of data. For this tutorial we will go through how to create object storage. <small><em>Tip:</em> A namespace is top level container for buckets and objects and must be unique. Buckets are a logical container that hold objects.</small>",
       "path": ""
     },
     {

@@ -118,13 +118,28 @@
       }]
     },
     {
+      "name": "Database",
+      "type": "Category",
+      "list": [{
+        "name": "Create a Autonomous Database",
+        "type": "Tutorial",
+        "path": "/create_autonomous_db.json"
+      }]
+    },
+    {
       "name": "Object Storage",
       "type": "Category",
       "list": [{
         "name": "Create Object Storage",
         "type": "Tutorial",
         "path": "/create_object_storage.json"
-      }]
+      },
+      {
+        "name": "Create Pre-Auth Requests",
+        "type": "Tutorial",
+        "path": "/create_pre_auth.json"
+      }
+    ]
     },
     {
       "name": "Advanced Networking",
@@ -138,7 +153,13 @@
         "name": "Create Local Peering",
         "type": "Tutorial",
         "path": "/create_local_peering.json"
-      }]
+      }, 
+      {
+        "name": "Create Service Gateway",
+        "type": "Tutorial",
+        "path": "/create_service_gateway.json"
+      }
+    ]
     },
     {
       "name": "Advanced Topics",

@@ -3,7 +3,7 @@
   "description": "Walkthrough on creating a subnet.", 
   "steps": [
     {
-      "message": "Subnets are subdivisions of a VCN. </br> Just like VCNs, each subnet must be a continuous range. Subnets contain virtual network interface cards which attach to instances. Can be AD specific or regional and should not overlap with other subnets in the VCN. <small><em>Tip:</em> Subnets can be private or public. private subnets do not allow public IPs on vNICs in the subnet. Public subnets will allow public IP on the vNIC but can be optional.</small>",
+      "message": "Subnets are subdivisions of a VCN. </br> Just like VCNs, each subnet must be a continuous range. Subnets contain virtual network interface cards which attach to instances. Can be AD specific or regional and should not overlap with other subnets in the VCN. <small><em>Tip:</em> Subnets can be private or public. Private subnets do not allow public IPs on vNICs in the subnet. Public subnets will allow public IP on the vNIC but can be optional.</small>",
       "path": ""
     },
     {

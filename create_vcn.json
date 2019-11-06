@@ -23,7 +23,7 @@
       "path": ""
     },
     {
-      "message": "Check 'Use DNS hostnames in his VCN'. </br>Leave DNS Label default and click \"Create Virtual Cloud Network\" button. </br>{{img-url:/images/tutorials/vcncustom.png}} <small><em>Tip:</em> The default resources created are route table, security list, and DHCP options. Other resources like Internet Gateway and Subnets must be created manually. </br> This offers more customizations such as creating a private only subnets. Refer to the other tutorials to create each resource.</small> <small><em>Tip2:</em> 'Use DNS hostnames' is rewuired if using Database PaaS services.</small>",
+      "message": "Check 'Use DNS hostnames in his VCN'. </br>Leave DNS Label default and click \"Create Virtual Cloud Network\" button. </br>{{img-url:/images/tutorials/vcncustom.png}} <small><em>Tip:</em> The default resources created are route table, security list, and DHCP options. Other resources like Internet Gateway and Subnets must be created manually. </br> This offers more customizations such as creating a private only subnets. Refer to the other tutorials to create each resource.</small> <small><em>Tip2:</em> 'Use DNS hostnames' is required if using Database PaaS services.</small>",
       "path": ""
     },
     {

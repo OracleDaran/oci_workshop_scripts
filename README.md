@@ -3,6 +3,7 @@
 _Oracle Workshop Extension_ used in the OCI Console to help guide on using common OCI resources and use cases. 
 
 [Install on Chrome Browser Here](https://chrome.google.com/webstore/detail/oci-workshop-extension/pjonegmmmclaihfglajojmfcpfambpcd)
+Website version [here](http://tinyurl.com/ociWorkshop)
 
 ![Screenshot](/OCIExtension.jpg)
 
@@ -69,22 +70,18 @@ Tutorials:
    * Clone and Backup
 * Object Storage 
    * Create, Upload, and Download
-   * Create Pre-Authenticated Requests*
+   * Create Pre-Authenticated Requests
 * File Storage
    * Create File Storage
 * Databases
-   * Create a ADB database* 
-   * Browse ADB features*
-   * Create a Database* 
+   * Create a ADB database
+   * Create Oracle Database
 * Advanced Networking
    * NAT Gateway 
-   * Service Gateway* 
+   * Service Gateway
    * Local VCN peering
-   * Regional VCN Peering*
 * Advanced Topics
-   * Jump Server Load Balancer
-
- *Soon to be created topics.
+   * Jump Server Load Balancer 
    
     
 

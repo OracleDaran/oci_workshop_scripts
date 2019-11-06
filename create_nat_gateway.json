@@ -11,7 +11,7 @@
         "path": "/networking/vcns"
       },
       {
-        "message": "Provision two linux compute instances in the seperate subnets one in the private subnet and one in public subnet. </br> {{img-url:/images/tutorials/network_nat_gateway2.png}}",
+        "message": "Provision two linux compute instances in the separate subnets one in the private subnet and one in public subnet. </br> {{img-url:/images/tutorials/network_nat_gateway2.png}}",
         "path": ""
       },
       {
@@ -23,7 +23,7 @@
         "path": ""
       },
       {
-        "message": "In order to test the instance has internet connection through NAT gateway you must SSH into the instance and test a network functionality. </br> You're going to ssh into the public instance then the private instance. <strong>You must have the private key on the public instance in order to ssh from public to private instance</strong> </br> Tranfer the private key to the public instance using scp. Using Linux/Mac: <code>scp [private_key] opc@[public_ip]:/home/opc/.ssh</code> </br> Then SSH into your public instance using your public IP. Linux/Mac: <code>ssh -i [private ssh key path] opc@[public ip] </code>",
+        "message": "In order to test the instance has internet connection through NAT gateway you must SSH into the instance and test a network functionality. </br> You're going to ssh into the public instance then the private instance. <strong>You must have the private key on the public instance in order to ssh from public to private instance</strong> </br> Transfer the private key to the public instance using scp. Using Linux/Mac: <code>scp [private_key] opc@[public_ip]:/home/opc/.ssh</code> </br> Then SSH into your public instance using your public IP. Linux/Mac: <code>ssh -i [private ssh key path] opc@[public ip] </code>",
         "path": ""
       },
       {

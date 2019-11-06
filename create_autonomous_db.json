@@ -1,0 +1,31 @@
+{
+    "name":"Creating an Autonomous Database",
+    "description": "Walkthrough on creating a Autonomous Database.", 
+    "steps": [
+      {
+        "message": "Oracle offers Autonomous Database which is an Oracle Database with build in automation to make managing a database easier. </br> In this tutorial we'll create an autonomous database. <small><em>Tip:</em> For more information on Autonomous Database read the <a href='https://docs.oracle.com/en/database/autonomous-database-cloud-services.html' target='_blank'>documentation</a></br> You can read on the differences of Autonomous Transaction Processing vs Data Warehouse. Both have similar autonomous features.</small>",
+        "path": ""
+      },
+      {
+        "message": "Click the menu button on top left. Scroll down to <strong>\"Autonomous Database\"</strong> and click on either <strong>\"Autonomous Data Warehouse or Transaction Processing\"</strong>. </br>{{img-url:/images/tutorials/create_adb1.png}} <small><em>Tip:</em> ADW is useful for analytic workloads and transaction more for application that requires higher read and writes.</small>",
+        "path": ""
+      },
+      {
+        "message": "Click on Create Autonomous Database. Here will ask for information to create one. Apply a name that will display on the Oracle Console.</br> Database name will be the name for the database itself.</br> Choose between Data Warehouse or Transaction Processing based on your requirements. </br> {{img-url:/images/tutorials/create_adb2.png}}",
+        "path": ""
+      },
+      {
+        "message": "Choose a deployment type, for this tutorial choose serverless.  </br> Choose the OCPU and Storage count. You can always change these configurations after provisioning. <small><em>Tip:</em>With Serverless Oracle manages the underlying network and infrastructure. While, Dedicated will provision an Exadata and allow you to control the network configurations. Dedicated is ideal for private databases vs serverless would have secure public access.</br> You can use Access Control Lists for Serverless to allow certain CIDR blocks specific access.</small>{{img-url:/images/tutorials/create_adb3.png}}",
+        "path": ""
+      },
+      {
+        "message": "Finally fill out the password for the ADMIN user. Passwords should be secure and follow security rules specified. </br> If your company has Oracle DB licenses use BYOL, otherwise use License Included. </br> Click on Create Autonomous Database {{img-url:/images/tutorials/create_adb4.png}}",
+        "path": ""
+      },
+      {
+        "message": "Your Autonomous Database should be provisioning! Congrats you created an Autonomous Database. You can look at different ways to use ADB and it's features in the documentations <a href='https://docs.oracle.com/en/database/autonomous-database-cloud-services.html' target='_blank'>here</a> and <a href='https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/adboverview.htm' target='_blank'>here</a>",
+        "path": ""
+      }
+    ]
+  }
+    

@@ -23,7 +23,7 @@
       "path": "/compute/instances"
     },
     {
-      "message": "Choose iSCSI or Paravirtualized. Choose a compartment. Under Block Volume choose the BV you just created. Choose the access type, read only or read & write. Then click create. <small><em>Tip:</em> For more infromation on Block Volumes, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm?Highlight=block%20volumes'>here</a>.</small> {{img-url:/images/tutorials/bvattach2.png}}",
+      "message": "Choose iSCSI or Paravirtualized. Choose a compartment. Under Block Volume choose the BV you just created. Choose the access type, read only or read & write. Then click create. <small><em>Tip:</em> For more information on Block Volumes, visit <a href='https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm?Highlight=block%20volumes'>here</a>.</small> {{img-url:/images/tutorials/bvattach2.png}}",
       "path": ""
     },
     {
