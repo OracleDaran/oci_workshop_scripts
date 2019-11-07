@@ -121,7 +121,12 @@
       "name": "Database",
       "type": "Category",
       "list": [{
-        "name": "Create a Autonomous Database",
+        "name": "Create an Oracle Database",
+        "type": "Tutorial",
+        "path": "/create_db.json"
+      },
+      {
+        "name": "Create an Autonomous Database",
         "type": "Tutorial",
         "path": "/create_autonomous_db.json"
       }]

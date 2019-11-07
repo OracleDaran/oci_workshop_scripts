@@ -23,7 +23,7 @@
         "path": ""
       },
       {
-        "message": "Your Autonomous Database should be provisioning! Congrats you created an Autonomous Database. You can look at different ways to use ADB and it's features in the documentations <a href='https://docs.oracle.com/en/database/autonomous-database-cloud-services.html' target='_blank'>here</a> and <a href='https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/adboverview.htm' target='_blank'>here</a>",
+        "message": "Your Autonomous Database should be provisioning! Congrats you created an Autonomous Database. You can look at different ways to use ADB and it's features in the documentations <a href='https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/part-using.html#GUID-F9B1D121-5D89-40B4-90C6-8E8E233C2B3F' target='_blank'>here</a> and <a href='https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/adboverview.htm' target='_blank'>here</a>",
         "path": ""
       }
     ]
